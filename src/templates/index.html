@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block pageContent %}
+
+
+                <img src="../static/Assets/images/home_logo.jpg" alt="DCU Logo" class="Logo">
+                <p class="center maintext">
+                 To start a conversation with our chat bot simply click the chat now
+                 button below.
+                </p>
+
+
+                <div class="center">
+                    <br>
+                    <!-- Button to bring user to chat page -->
+                    <button type="button" class="chatbutton button2"
+                            onclick="window.location.href='{{ url_for('chat')}}';" > Start Chat Now</button>
+                    <br>
+                </div>
+
+                <p class="center maintext">
+                    For more information on how to use this application and on queries that can be made,
+                    please look at the Help page of this website. For information about this
+                    project see our About page.
+                </p>
+{% endblock %}

@@ -1,0 +1,3568 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- images.aiml -->
+
+
+    <!-- alot of different phrases programmed for this file -->
+
+    <!-- this was so there was not a clash when asking for directions or building codes -->
+
+    <category>
+        <pattern>ALBERT COLLEGE BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/a.jpg /n This is the Albert college building</template>
+    </category>
+
+    <category>
+        <pattern>ALBERT COLLEGE BUILDING PICTURE</pattern>
+        <template>../static/Assets/images/a.jpg /n This is the Albert college building</template>
+    </category>
+
+    <category>
+        <pattern>* CAMPUS MAP</pattern>
+        <template>../static/Assets/images/campus.jpg /n This is the Campus Map</template>
+    </category>
+
+     <category>
+        <pattern>CAMPUS MAP</pattern>
+        <template>../static/Assets/images/campus.jpg /n This is the Campus Map</template>
+    </category>
+
+     <category>
+        <pattern>CAMPUS MAP *</pattern>
+        <template>../static/Assets/images/campus.jpg /n This is the Campus Map</template>
+    </category>
+
+     <category>
+        <pattern>* CAMPUS MAP *</pattern>
+        <template>../static/Assets/images/campus.jpg /n This is the Campus Map</template>
+    </category>
+
+     <category>
+        <pattern>* CAMPUS MAP</pattern>
+        <template>../static/Assets/images/campus.jpg /n This is the Campus Map</template>
+    </category>
+
+     <category>
+        <pattern>MAP</pattern>
+        <template>../static/Assets/images/campus.jpg /n This is the Campus Map</template>
+    </category>
+
+     <category>
+        <pattern>MAP *</pattern>
+        <template>../static/Assets/images/campus.jpg /n This is the Campus Map</template>
+    </category>
+
+     <category>
+        <pattern>* MAP *</pattern>
+        <template>../static/Assets/images/campus.jpg /n This is the Campus Map</template>
+    </category>
+
+    <category>
+        <pattern>* MAP</pattern>
+        <template>../static/Assets/images/campus.jpg /n This is the Campus Map</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF ALBERT *</pattern>
+        <template>../static/Assets/images/a.jpg /n This is the Albert college building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE ALBERT *</pattern>
+        <template>../static/Assets/images/a.jpg /n This is the Albert college building</template>
+    </category>
+
+    <category>
+        <pattern>ALBERT COLLEGE IMAGE</pattern>
+        <template>../static/Assets/images/a.jpg /n This is the Albert college building</template>
+    </category>
+
+    <category>
+        <pattern>ALBERT COLLEGE PICTURE</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALBERT COLLEGE IMAGES</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALBERT COLLEGE BUILDING IMAGES</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALBERT BUILDING IMAGE</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGE OF ALBERT COLLEGE BUILDING</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF ALBERT COLLEGE BUILDING</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF A</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF A</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF A *</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* PICTURES OF A</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF A</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF A *</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF A</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>IMAGES OF A</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF A</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF A *</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF A *</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OF BUILDING A</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF A</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGE OF A *</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF A *</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF ALBERT *</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE ALBERT *</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE ALBERT *</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+     <category>
+        <pattern>PICTURE OF ALBERT *</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE ALBERT *</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>A PICTURE</pattern>
+        <template>../static/Assets/images/a.jpg /n This is the Albert college building</template>
+    </category>
+
+    <category>
+        <pattern>A IMAGE</pattern>
+        <template>../static/Assets/images/a.jpg /n This is the Albert college building</template>
+    </category>
+
+
+
+
+
+
+    <category>
+        <pattern>INVENT BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/invent.jpg /n This is the Invent Building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE INVENT *</pattern>
+        <template>../static/Assets/images/invent.jpg /n This is the Invent Building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF INVENT *</pattern>
+        <template>../static/Assets/images/invent.jpg /n This is the Invent Building</template>
+    </category>
+
+    <category>
+        <pattern>INVENT IMAGE</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>INVENT BUILDING PICTURE</pattern>
+        <template>../static/Assets/images/invent.jpg /n This is the Invent Building</template>
+    </category>
+
+    <category>
+        <pattern>INVENT PICTURE</pattern>
+        <template>../static/Assets/images/invent.jpg /n This is the Invent Building</template>
+    </category>
+
+    <category>
+        <pattern>INVENT IMAGES</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>INVENT BUILDING IMAGES</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGE OF INVENT BUILDING</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF INVENT BUILDING</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF B</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF B *</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF B</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF B *</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF B *</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>PICTURES OF B *</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF B</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF B *</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF B</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGES OF B</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF B</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OF BUILDING B</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF B</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGE OF B *</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF INVENT *</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>PICTURE OF INVENT *</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE INVENT *</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE INVENT *</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>PICTURE OF THE INVENT *</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>B IMAGE</pattern>
+        <template>../static/Assets/images/invent.jpg /n This is the Invent Building</template>
+    </category>
+
+     <category>
+        <pattern>B PICTURE</pattern>
+        <template>../static/Assets/images/invent.jpg /n This is the Invent Building</template>
+    </category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <category>
+        <pattern>HENRY GRATTAN BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/henrygrattan.jpg /n This is the front of the Henry Grattan Building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF HENRY *</pattern>
+        <template>../static/Assets/images/henrygrattan.jpg /n This is the front of the Henry Grattan Building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE HENRY *</pattern>
+        <template>../static/Assets/images/henrygrattan.jpg /n This is the front of the Henry Grattan Building</template>
+
+    </category>
+
+    <category>
+        <pattern>HENRY GRATTAN IMAGE</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HENRY GRATTAN BUILDING PICTURE</pattern>
+        <template>../static/Assets/images/henrygrattan.jpg /n This is the front of the Henry Grattan Building</template>
+    </category>
+
+    <category>
+        <pattern>HENRY GRATTAN PICTURE</pattern>
+        <template>../static/Assets/images/henrygrattan.jpg /n This is the front of the Henry Grattan Building</template>
+    </category>
+
+    <category>
+        <pattern>HENRY GRATTAN IMAGES</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF C *</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HENRY GRATTAN BUILDING IMAGES</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGE OF HENRY GRATTAN BUILDING</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF HENRY GRATTAN BUILDING</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF C</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF C *</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF C</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF C *</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF C</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF C *</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* PICTURES OF C *</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>PICTURES OF C</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF C</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF C</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF C</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF BUIDLING C</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OF BUIDLING C</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>* IMAGE OF C</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+     <category>
+        <pattern>IMAGE OF C *</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* IMAGE OF C *</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF C *</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF HENRY *</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF HENRY *</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE HENRY *</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE HENRY *</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE HENRY *</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>C IMAGE</pattern>
+        <template>../static/Assets/images/henrygrattan.jpg /n This is the front of the Henry Grattan Building</template>
+    </category>
+
+    <category>
+        <pattern>C PICTURE</pattern>
+        <template>../static/Assets/images/henrygrattan.jpg /n This is the front of the Henry Grattan Building</template>
+    </category>
+
+
+
+
+
+
+
+
+    <category>
+        <pattern>BEA ORPEN BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE BEA *</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF BEA *</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>BEA BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>BEA ORPEN BUILDING PICTURE</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>BEA BUILDING PICTURE</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>BEA ORPEN BUILDING IMAGE</pattern>
+         <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF D *</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+     <category>
+        <pattern>BEA ORPEN BUILDING IMAGES</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+
+    <category>
+        <pattern>BEA IMAGE</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>>
+    </category>
+
+     <category>
+        <pattern>BEA BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>IMAGE OF BEA ORPEN BUILDING</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF BEA ORPEN BUILDING</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF D</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF D</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF D *</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>D IMAGE</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>D PICTURE</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+     <category>
+        <pattern>* PICTURES OF D</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF D</pattern>
+        <template>../static/Assets/images/bea.jpg /n This is the BEA Orpen Building</template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF D *</pattern>
+        <template>
+            <srai>BEA ORPEN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF D</pattern>
+        <template>
+            <srai>BEA ORPEN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>IMAGES OF D</pattern>
+        <template>
+            <srai>BEA ORPEN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGE OF D *</pattern>
+        <template>
+            <srai>BEA ORPEN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF D</pattern>
+        <template>
+            <srai>BEA ORPEN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF D *</pattern>
+        <template>
+            <srai>BEA ORPEN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF D *</pattern>
+        <template>
+           <srai>BEA ORPEN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OF BUILDING D</pattern>
+        <template>
+           <srai>BEA ORPEN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF D</pattern>
+        <template>
+            <srai>BEA ORPEN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF BEA *</pattern>
+        <template>
+            <srai>BEA ORPEN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF BEA *</pattern>
+        <template>
+            <srai>BEA ORPEN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE BEA *</pattern>
+        <template>
+            <srai>BEA ORPEN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE BEA *</pattern>
+        <template>
+            <srai>BEA ORPEN BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <category>
+        <pattern>NICB BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+
+    <category>
+        <pattern>NICB IMAGE</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>NICB BUILDING PICTURE</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+
+    <category>
+        <pattern>NICB PICTURE</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE NICB *</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE NICB *</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF NICB *</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE NICB *</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF NICB *</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE NICB *</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+
+
+    <category>
+        <pattern>NICB IMAGES</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>NICB BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+
+
+    <category>
+        <pattern>* OF G BUILDING</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+
+
+    <category>
+        <pattern>* OF NICB BUILDING</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF G</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+     <category>
+        <pattern>NICB IMAGE</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+     <category>
+        <pattern>IMAGE OF G *</pattern>
+       <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF G *</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF G</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF G *</pattern>
+       <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+
+
+    <category>
+        <pattern>PICTURES OF G *</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF G</pattern>
+      <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF G *</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF G</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+     <category>
+        <pattern>IMAGES OF G</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF G</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>* OF BUILDING G</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF G</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF NICB *</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF NICB *</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE NICB *</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+     <category>
+        <pattern>G IMAGE</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+    <category>
+        <pattern>G PICTURE</pattern>
+        <template>../static/Assets/images/_nicb.jpg /n This is the NICB building</template>
+    </category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <category>
+        <pattern>NURSING BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/_nursing.jpg /n This is an image of the Nursing Building</template>
+    </category>
+
+     <category>
+        <pattern>NURSING BUILDING PICTURE</pattern>
+        <template>../static/Assets/images/_nursing.jpg /n This is an image of the Nursing Building</template>
+    </category>
+
+    <category>
+        <pattern>NURSING IMAGE</pattern>
+        <template>../static/Assets/images/_nursing.jpg /n This is an image of the Nursing Building</template>
+    </category>
+
+     <category>
+        <pattern>NURSING PICTURE</pattern>
+        <template>../static/Assets/images/_nursing.jpg /n This is an image of the Nursing Building</template>
+    </category>
+
+    <category>
+        <pattern>H IMAGE</pattern>
+        <template>../static/Assets/images/_nursing.jpg /n This is an image of the Nursing Building</template>
+    </category>
+
+    <category>
+        <pattern>H PICTURE</pattern>
+        <template>../static/Assets/images/_nursing.jpg /n This is an image of the Nursing Building</template>
+    </category>
+
+    <category>
+        <pattern>NURSING IMAGE</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>NURSING IMAGES</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>NURSING BUILDING IMAGES</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGE OF H *</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>IMAGE OF NURSING BUILDING</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF NURSING BUILDING</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF H</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF H *</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF H</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF H *</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* PICTURES OF H</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF H</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF H *</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF H</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>IMAGES OF H</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF H</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF H *</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF H *</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OF BUILDING H</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF H</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+      <category>
+        <pattern>* PICTURE OF NURSING *</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF NURSING *</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE NURSING *</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE NURSING *</pattern>
+        <template>
+            <srai>NURSING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <category>
+        <pattern>U BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/studentu.jpg /n This is the Student U building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE U *</pattern>
+        <template>../static/Assets/images/studentu.jpg /n This is the Student U building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF U *</pattern>
+        <template>../static/Assets/images/studentu.jpg /n This is the Student U building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE STUDENT *</pattern>
+        <template>../static/Assets/images/studentu.jpg /n This is the Student U building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE HUB *</pattern>
+        <template>../static/Assets/images/studentu.jpg /n This is the Student U building</template>
+    </category>
+
+      <category>
+        <pattern>U BUILDING PICTURE</pattern>
+        <template>../static/Assets/images/studentu.jpg /n This is the Student U building</template>
+    </category>
+
+    <category>
+        <pattern>U PICTURE</pattern>
+        <template>../static/Assets/images/studentu.jpg /n This is the Student U building</template>
+    </category>
+
+    <category>
+        <pattern>U IMAGE</pattern>
+        <template>../static/Assets/images/studentu.jpg /n This is the Student U building</template>
+    </category>
+
+    <category>
+        <pattern>KA IMAGE</pattern>
+        <template>../static/Assets/images/studentu.jpg /n This is the Student U building</template>
+    </category>
+
+    <category>
+        <pattern>KA IMAGE</pattern>
+        <template>../static/Assets/images/studentu.jpg /n This is the Student U building</template>
+    </category>
+
+    <category>
+        <pattern>U IMAGE</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>U IMAGES</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>THE U IMAGE</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>THE U IMAGES</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGE OF KA *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>STUDENT U BUILDING IMAGE</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>STUDENT U BUILDING IMAGES</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>STUDENT U IMAGE</pattern>
+        <template>
+            <srai>U IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>STUDENT U IMAGES</pattern>
+        <template>
+            <srai>U IMAGE</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>STUDENT U BUILDING IMAGE</pattern>
+        <template>
+            <srai>U IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGE OF STUDENT U BUILDING</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF STUDENT U BUILDING</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF KA</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF KA</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF KA *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF KA *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* PICTURES OF KA</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF KA</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF KA *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF KA</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>IMAGES OF KA</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF KA</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF KA *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF KA *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OF BUILDING KA</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF KA</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+      <category>
+        <pattern>* PICTURE OF U *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF U *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF STUDENT U *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF STUDENT U *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE STUDENT U *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE U *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE U *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE STUDENT U *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE STUDENT U *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE HUB *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF HUB *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE HUB *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE HUB *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* PICTURE OF HUB *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF HUB *</pattern>
+        <template>
+            <srai>U BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+
+
+    <category>
+        <pattern>COMPUTING BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/computing.jpg /n This is the front of computing building.</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF COMPUTING *</pattern>
+        <template>../static/Assets/images/computing.jpg /n This is the front of computing building.</template>
+    </category>
+
+     <category>
+        <pattern>* IMAGE OF THE COMPUTING *</pattern>
+        <template>../static/Assets/images/computing.jpg /n This is the front of computing building.</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF MCNULTY *</pattern>
+        <template>../static/Assets/images/computing.jpg /n This is the front of computing building.</template>
+    </category>
+
+     <category>
+        <pattern>* IMAGE OF THE MCNULTY *</pattern>
+        <template>../static/Assets/images/computing.jpg /n This is the front of computing building.</template>
+    </category>
+
+
+    <category>
+        <pattern>COMPUTING IMAGE</pattern>
+        <template>../static/Assets/images/computing.jpg /n This is the front of computing building.</template>
+    </category>
+
+    <category>
+        <pattern>MCNULTY BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/computing.jpg /n This is the front of computing building.</template>
+    </category>
+
+    <category>
+        <pattern>MCNULTY IMAGE</pattern>
+        <template>../static/Assets/images/computing.jpg /n This is the front of computing building.</template>
+    </category>
+
+    <category>
+        <pattern>MCNULTY BUILDING PICTURE</pattern>
+        <template>../static/Assets/images/computing.jpg /n This is the front of computing building.</template>
+    </category>
+
+    <category>
+        <pattern>MCNULTY PICTURE</pattern>
+        <template>../static/Assets/images/computing.jpg /n This is the front of computing building.</template>
+    </category>
+
+    <category>
+        <pattern>COMPUTING BUILDING PICTURE</pattern>
+        <template>../static/Assets/images/computing.jpg /n This is the front of computing building.</template>
+    </category>
+
+    <category>
+        <pattern>COMPUTING PICTURE</pattern>
+        <template>../static/Assets/images/computing.jpg /n This is the front of computing building.</template>
+    </category>
+
+    <category>
+        <pattern>L IMAGE</pattern>
+        <template>../static/Assets/images/computing.jpg /n This is the front of computing building.</template>
+    </category>
+
+    <category>
+        <pattern>L PICTURE</pattern>
+        <template>../static/Assets/images/computing.jpg /n This is the front of computing building.</template>
+    </category>
+
+    <category>
+        <pattern>COMPUTING IMAGE</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+     <category>
+        <pattern>IMAGE OF COMPUTING BUILDING</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF COMPUTING BUILDING</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF L</pattern>
+        <template>
+            <srai>INVENT BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF L *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF L *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF L</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF L *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGE OF L *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>PICTURES OF L *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF L</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF B *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF L</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGES OF L</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF L</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OF BUILDING L</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF L</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+
+
+    <category>
+        <pattern>MCNULTY IMAGE</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MCNULTY BUILDING IMAGE</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGE OF MCNULTY BUILDING</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF MCNULTY BUILDING</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF COMPUTING *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF COMPUTING *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE COMPUTING *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE COMPUTING *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE COMPUTING *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF MCNULTY *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF MCNULTY *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE MCNULTY *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE MCNULTY *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>PICTURE OF THE MCNULTY *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF THE MCNULTY *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+
+
+
+
+    <category>
+        <pattern>BUSINESS BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/business.jpg/n This image is the business building</template>
+    </category>
+
+    <category>
+        <pattern>BUSINESS IMAGE</pattern>
+        <template>../static/Assets/images/business.jpg/n This image is the business building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE BUSINESS *</pattern>
+        <template>../static/Assets/images/business.jpg/n This image is the business building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF BUSINESS *</pattern>
+        <template>../static/Assets/images/business.jpg/n This image is the business building</template>
+    </category>
+
+    <category>
+        <pattern>BUSINESS BUILDING PICTURE</pattern>
+        <template>../static/Assets/images/business.jpg/n This image is the business building</template>
+    </category>
+
+    <category>
+        <pattern>BUSINESS PICTURE</pattern>
+        <template>../static/Assets/images/business.jpg/n This image is the business building</template>
+    </category>
+
+    <category>
+        <pattern>Q IMAGE</pattern>
+        <template>../static/Assets/images/business.jpg/n This image is the business building</template>
+    </category>
+
+    <category>
+        <pattern>Q PICTURE</pattern>
+        <template>../static/Assets/images/business.jpg/n This image is the business building</template>
+    </category>
+
+    <category>
+        <pattern>BUSINESS IMAGE</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+      <category>
+        <pattern>IMAGE OF BUSINESS BUILDING</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF BUSINESS BUILDING</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF Q</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF Q *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGE OF Q *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF Q *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF Q</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF Q *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>PICTURES OF Q *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF Q</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF Q *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF Q</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGES OF Q</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF Q</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OF BUILDING Q</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF Q</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF BUSINESS *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF BUSINESS *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE BUSINESS *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE BUSINESS *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE BUSINESS *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>PICTURES OF THE BUSINESS *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <category>
+        <pattern>ENGINEERING BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/engineering.jpg /n This is the front of the engineering building.</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE STOKES *</pattern>
+        <template>../static/Assets/images/engineering.jpg /n This is the front of the engineering building.</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF STOKES *</pattern>
+        <template>../static/Assets/images/engineering.jpg /n This is the front of the engineering building.</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF ENGINEERING *</pattern>
+        <template>../static/Assets/images/engineering.jpg /n This is the front of the engineering building.</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE ENGINEERING *</pattern>
+        <template>../static/Assets/images/engineering.jpg /n This is the front of the engineering building.</template>
+    </category>
+
+
+
+
+
+
+    <category>
+        <pattern>ENGINEERING IMAGE</pattern>
+        <template>../static/Assets/images/engineering.jpg /n This is the front of the engineering building.</template>
+    </category>
+
+    <category>
+        <pattern>ENGINEERING BUILDING PICTURE</pattern>
+        <template>../static/Assets/images/engineering.jpg /n This is the front of the engineering building.</template>
+    </category>
+
+
+    <category>
+        <pattern>ENGINEERING PICTURE</pattern>
+        <template>../static/Assets/images/engineering.jpg /n This is the front of the engineering building.</template>
+    </category>
+
+    <category>
+        <pattern>S IMAGE</pattern>
+        <template>../static/Assets/images/engineering.jpg /n This is the front of the engineering building.</template>
+    </category>
+
+    <category>
+        <pattern>S PICTURE</pattern>
+        <template>../static/Assets/images/engineering.jpg /n This is the front of the engineering building.</template>
+    </category>
+
+    <category>
+        <pattern>ENGINEERING IMAGE</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGE OF ENGINEERING BUILDING</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF ENGINEERING BUILDING</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF S</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGE OF S *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF S *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF S *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF S</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF S *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>PICTURES OF S *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF S</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF S *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF S</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGES OF S</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF S</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OF BUILDING S</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF S</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>STOKES IMAGE</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>STOKES BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/engineering.jpg /n This is the front of the engineering building.</template>
+    </category>
+
+    <category>
+        <pattern>IMAGE OF STOKES BUILDING</pattern>
+        <template>../static/Assets/images/engineering.jpg /n This is the front of the engineering building.</template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF STOKES BUILDING</pattern>
+        <template>../static/Assets/images/engineering.jpg /n This is the front of the engineering building.</template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF ENGINEERING *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF ENGINEERING *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* PICTURE OF THE ENGINEERING *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE ENGINEERING *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE ENGINEERING *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF THE ENGINEERING *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+
+    <category>
+        <pattern>* PICTURE OF STOKES *</pattern>
+        <template>../static/Assets/images/engineering.jpg /n This is the front of the engineering building.</template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF STOKES *</pattern>
+        <template>../static/Assets/images/engineering.jpg /n This is the front of the engineering building.</template>
+    </category>
+
+     <category>
+        <pattern>* PICTURE OF THE STOKES *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE STOKES *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE STOKES *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF THE STOKES *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+
+
+    <category>
+        <pattern>TERRENCE LARKIN THEATRE IMAGE</pattern>
+        <template>../static/Assets/images/terrencelarkin.jpg /n This image is the terrence larkin theatre</template>
+    </category>
+
+     <category>
+        <pattern>TERRENCE LARKIN THEATRE PICTURE</pattern>
+        <template>../static/Assets/images/terrencelarkin.jpg /n This image is the terrence larkin theatre</template>
+    </category>
+
+    <category>
+        <pattern>TERRENCE LARKIN IMAGE</pattern>
+        <template>../static/Assets/images/terrencelarkin.jpg /n This image is the terrence larkin theatre</template>
+    </category>
+
+     <category>
+        <pattern>TERRENCE LARKIN PICTURE</pattern>
+        <template>../static/Assets/images/terrencelarkin.jpg /n This image is the terrence larkin theatre</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE TERRENCE *</pattern>
+        <template>../static/Assets/images/terrencelarkin.jpg /n This image is the terrence larkin theatre</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF TERRENCE *</pattern>
+        <template>../static/Assets/images/terrencelarkin.jpg /n This image is the terrence larkin theatre</template>
+    </category>
+
+    <category>
+        <pattern>T IMAGE</pattern>
+        <template>../static/Assets/images/terrencelarkin.jpg /n This image is the terrence larkin theatre</template>
+    </category>
+
+    <category>
+        <pattern>T PICTURE</pattern>
+        <template>../static/Assets/images/terrencelarkin.jpg /n This image is the terrence larkin theatre</template>
+    </category>
+
+    <category>
+        <pattern>TERRENCE IMAGE</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>IMAGE OF TERRENCE LARKIN THEATRE</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>* PICTURE OF T</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGE OF T *</pattern>
+        <template>
+            <srai>TERRENCE LARKING THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF T</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF T *</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF T *</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* PICTURES OF T</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF T</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF T *</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF T</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>IMAGES OF T</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF T</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF T *</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF T *</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OF BUILDING T</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF T</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF TERRENCE *</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF TERRENCE *</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE TERRENCE *</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE TERRENCE *</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE TERRENCE *</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>PICTURES OF THE TERRENCE *</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE IMAGE</srai>
+        </template>
+    </category>
+
+
+
+
+
+
+
+
+
+     <category>
+        <pattern>CANTEEN IMAGE</pattern>
+        <template>../static/Assets/images/canteen.jpg /n This is the DCU canteen image</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE CANTEEN *</pattern>
+        <template>../static/Assets/images/canteen.jpg /n This is the DCU canteen image</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF CANTEEN *</pattern>
+        <template>../static/Assets/images/canteen.jpg /n This is the DCU canteen image</template>
+    </category>
+
+    <category>
+        <pattern>PR IMAGE</pattern>
+        <template>../static/Assets/images/canteen.jpg /n This is the DCU canteen image</template>
+    </category>
+
+    <category>
+        <pattern>PR PICTURE</pattern>
+        <template>../static/Assets/images/canteen.jpg /n This is the DCU canteen image</template>
+    </category>
+
+
+    <category>
+        <pattern>IMAGE OF CANTEEN</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF CANTEEN</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF PR</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGE OF PR *</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF PR *</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF PR *</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF PR</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF PR *</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>PICTURES OF PR *</pattern>
+        <template>
+           <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF PR</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF PR *</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF PR</pattern>
+        <template>
+           <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGES OF PR</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF PR</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OF BUILDING PR</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF PR</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF CANTEEN *</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF CANTEEN *</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE CANTEEN *</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE CANTEEN *</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE CANTEEN *</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF THE CANTEEN *</pattern>
+        <template>
+            <srai>CANTEEN IMAGE</srai>
+        </template>
+    </category>
+
+
+
+
+
+
+
+
+     <category>
+        <pattern>SCIENCE BUILDING IMAGE</pattern>
+        <template>../static/Assets/images/science.jpg /n This is the science building</template>
+    </category>
+
+    <category>
+        <pattern>SCIENCE BUILDING PICTURE</pattern>
+        <template>../static/Assets/images/science.jpg /n This is the science building</template>
+    </category>
+
+     <category>
+        <pattern>SCIENCE PICTURE</pattern>
+        <template>../static/Assets/images/science.jpg /n This is the science building</template>
+    </category>
+
+
+    <category>
+        <pattern>X IMAGE</pattern>
+        <template>../static/Assets/images/science.jpg /n This is the science building</template>
+    </category>
+
+
+
+    <category>
+        <pattern>X PICTURE</pattern>
+        <template>../static/Assets/images/science.jpg /n This is the science building</template>
+    </category>
+
+    <category>
+        <pattern>SCIENCE IMAGE</pattern>
+        <template>
+            <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGE OF SCIENCE BUILDING</pattern>
+        <template>
+             <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF SCIENCE BUILDING</pattern>
+        <template>
+             <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF X</pattern>
+        <template>
+             <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF X *</pattern>
+        <template>
+            <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF X *</pattern>
+        <template>
+             <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF X</pattern>
+        <template>
+             <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF X *</pattern>
+        <template>
+             <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>PICTURES OF X *</pattern>
+        <template>
+             <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGE OF X *</pattern>
+        <template>
+            <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF X</pattern>
+        <template>
+             <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF X *</pattern>
+        <template>
+             <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF X</pattern>
+        <template>
+             <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGES OF X</pattern>
+        <template>
+             <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF X</pattern>
+        <template>
+             <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OF BUILDING X</pattern>
+        <template>
+             <srai>SCIENCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF X</pattern>
+        <template>../static/Assets/images/science.jpg /n This is the science building</template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF SCIENCE *</pattern>
+        <template>../static/Assets/images/science.jpg /n This is the science building</template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF SCIENCE *</pattern>
+        <template>../static/Assets/images/science.jpg /n This is the science building</template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE SCIENCE *</pattern>
+        <template>../static/Assets/images/science.jpg /n This is the science building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE SCIENCE *</pattern>
+        <template>../static/Assets/images/science.jpg /n This is the science building</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF SCIENCE *</pattern>
+        <template>../static/Assets/images/science.jpg /n This is the science building</template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE SCIENCE *</pattern>
+        <template>../static/Assets/images/science.jpg /n This is the science building</template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE SCIENCE *</pattern>
+        <template>
+            <srai>SCEINCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF THE SCIENCE *</pattern>
+        <template>
+            <srai>SCEINCE BUILDING IMAGE</srai>
+        </template>
+    </category>
+
+
+
+
+
+     <category>
+        <pattern>HELIX IMAGE</pattern>
+        <template>../static/Assets/images/helix.jpg /n This is an image of the helix</template>
+    </category>
+
+     <category>
+        <pattern>IMAGE OF HELIX BUILDING</pattern>
+        <template>
+             <srai>HELIX IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE HELIX</pattern>
+        <template>
+             <srai>HELIX IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* PICTURE OF THE HELIX *</pattern>
+        <template>
+             <srai>HELIX IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE HELIX *</pattern>
+        <template>
+             <srai>HELIX IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF HELIX</pattern>
+        <template>
+             <srai>HELIX IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF HELIX *</pattern>
+        <template>
+             <srai>HELIX IMAGE</srai>
+        </template>
+    </category>
+
+
+     <category>
+        <pattern>POSTGRADUATE RESIDENCES IMAGE</pattern>
+        <template>../static/Assets/images/postgrad.jpg /n This is what the postgraduate residences look like.</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF POSTGRADUATE *</pattern>
+        <template>../static/Assets/images/postgrad.jpg /n This is what the postgraduate residences look like.</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE POSTGRADUATE *</pattern>
+        <template>../static/Assets/images/postgrad.jpg /n This is what the postgraduate residences look like.</template>
+    </category>
+
+    <category>
+        <pattern>POSTGRADUATE RESIDENCES PICTURE</pattern>
+        <template>../static/Assets/images/postgrad.jpg /n This is what the postgraduate residences look like.</template>
+    </category>
+
+    <category>
+        <pattern>POSTGRADUATE PICTURE</pattern>
+        <template>../static/Assets/images/postgrad.jpg /n This is what the postgraduate residences look like.</template>
+    </category>
+
+    <category>
+        <pattern>VA IMAGE</pattern>
+        <template>../static/Assets/images/postgrad.jpg /n This is what the postgraduate residences look like.</template>
+    </category>
+
+    <category>
+        <pattern>VA PICTURE</pattern>
+        <template>../static/Assets/images/postgrad.jpg /n This is what the postgraduate residences look like.</template>
+    </category>
+
+
+
+    <category>
+        <pattern>IMAGE OF POSTGRADUATE RESIDENCES</pattern>
+        <template>
+             <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF POSTGRADUATE RESIDENCES</pattern>
+        <template>
+             <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF VA</pattern>
+        <template>
+             <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF VA *</pattern>
+        <template>
+             <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF VA</pattern>
+        <template>
+             <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF VA *</pattern>
+        <template>
+            <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF VA *</pattern>
+        <template>
+             <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGE OF VA *</pattern>
+        <template>
+            <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>PICTURES OF VA *</pattern>
+        <template>
+             <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF VA</pattern>
+        <template>
+             <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF VA *</pattern>
+        <template>
+             <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF VA</pattern>
+        <template>
+             <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGES OF VA</pattern>
+        <template>
+             <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF VA</pattern>
+        <template>
+             <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OF BUILDING VA</pattern>
+        <template>
+             <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF VA</pattern>
+        <template>
+             <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF POSTGRADUTE *</pattern>
+        <template>
+            <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF POSTGRADUATE *</pattern>
+        <template>
+            <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* PICTURE OF THE POSTGRADUTE *</pattern>
+        <template>
+            <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE POSTGRADUATE *</pattern>
+        <template>
+            <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE POSTGRADUTE *</pattern>
+        <template>
+            <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF THE POSTGRADUATE *</pattern>
+        <template>
+            <srai>POSTGRADUATE RESIDENCES IMAGE</srai>
+        </template>
+    </category>
+
+
+
+
+     <category>
+        <pattern>CAR PARK IMAGE</pattern>
+        <template>../static/Assets/images/carpark.jpg /n This is an image of the car park</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF THE CARPARK *</pattern>
+        <template>../static/Assets/images/carpark.jpg /n This is an image of the car park</template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF CARPARK *</pattern>
+        <template>../static/Assets/images/carpark.jpg /n This is an image of the car park</template>
+    </category>
+
+
+    <category>
+        <pattern>CAR PARK PICTURE</pattern>
+        <template>../static/Assets/images/carpark.jpg /n This is an image of the car park</template>
+    </category>
+
+     <category>
+        <pattern>CARPARK IMAGE</pattern>
+        <template>../static/Assets/images/carpark.jpg /n This is an image of the car park</template>
+    </category>
+
+    <category>
+        <pattern>CARPARK PICTURE</pattern>
+        <template>../static/Assets/images/carpark.jpg /n This is an image of the car park</template>
+    </category>
+
+     <category>
+        <pattern>F IMAGE</pattern>
+        <template>../static/Assets/images/carpark.jpg /n This is an image of the car park</template>
+    </category>
+
+    <category>
+        <pattern>F PICTURE</pattern>
+        <template>../static/Assets/images/carpark.jpg /n This is an image of the car park</template>
+    </category>
+
+
+    <category>
+        <pattern>IMAGE OF CAR PARK</pattern>
+        <template>
+             <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF F *</pattern>
+        <template>
+            <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IMAGES OF CAR PARK</pattern>
+        <template>
+             <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF F</pattern>
+        <template>
+             <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF F *</pattern>
+        <template>
+             <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF F</pattern>
+        <template>
+             <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGE OF F *</pattern>
+        <template>
+            <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF F *</pattern>
+        <template>
+             <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>PICTURES OF F *</pattern>
+        <template>
+             <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF F</pattern>
+        <template>
+             <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF F *</pattern>
+        <template>
+             <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF F</pattern>
+        <template>
+             <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>IMAGES OF F</pattern>
+        <template>
+             <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGES OF F</pattern>
+        <template>
+             <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OF BUILDING F</pattern>
+        <template>
+            <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IMAGE OF F</pattern>
+        <template>
+             <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF THE CARPARK *</pattern>
+        <template>
+            <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE CARPARK *</pattern>
+        <template>
+            <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURE OF CARPARK *</pattern>
+        <template>
+            <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF CARPARK *</pattern>
+        <template>
+            <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* PICTURE OF THE CARPARK *</pattern>
+        <template>
+            <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURE OF THE CARPARK *</pattern>
+        <template>
+            <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PICTURES OF THE CARPARK *</pattern>
+        <template>
+            <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PICTURES OF THE CARPARK *</pattern>
+        <template>
+            <srai>CAR PARK IMAGE</srai>
+        </template>
+    </category>
+
+
+
+
+</aiml>

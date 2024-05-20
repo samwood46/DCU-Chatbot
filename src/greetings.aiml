@@ -1,0 +1,92 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- greetings.aiml -->
+
+    <!-- a number of ways that the user can greet people -->
+
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            <random>
+            <li>Hello! Welcome to the DCU Campus chatbot!</li>
+            <li>Hi! Are you having trouble with the campus map? I am here to help!</li>
+            <li>Hello there! What can I help you with today?</li>
+            <li>Hi! What are your DCU Campus queries? I will try and answer to the best of my ability!</li>
+            <li>Hi! DCU Campus Chatbot at your service!</li>
+            <li>Hello! Do you need help with directions? Ask away! You are helping me learn!</li>
+            <li>Hi there, need help with Building codes or directions on campus? You need look no further!</li>
+            <li>Hi! I am the DCU Campus Chatbot service! How can I assist?</li>
+            <li>Salutations! What can I do for you on this fine day?</li>
+            <li>Hi! What questions do you have for me? I am eager to learn!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>YES</pattern>
+        <that>HI ARE YOU HAVING TROUBLE WITH THE CAMPUS MAP I AM HERE TO HELP</that>
+        <template>Send me on whatever code you are having trouble with!</template>
+    </category>
+
+    <category>
+        <pattern>YES</pattern>
+        <that>HELLO DO YOU NEED HELP WITH DIRECTIONS ASK AWAY YOU ARE HELPING ME LEARN</that>
+        <template>Send me the building you are looking for and I will direct you!</template>
+    </category>
+
+    <category>
+        <pattern>YEAH</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>YEAH *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>YES *</pattern>
+        <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI *</pattern>
+        <template>
+            <srai>Hi</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HEY</pattern>
+        <template>
+            <srai>Hi</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>HEY *</pattern>
+        <template>
+            <srai>Hi</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <srai>Hi</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELLO *</pattern>
+        <template>
+            <srai>Hi</srai>
+        </template>
+    </category>
+
+</aiml>

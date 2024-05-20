@@ -1,0 +1,879 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- computing_nursing_directions.aiml -->
+
+<!--nursing building rooms -->
+
+    <category>
+        <pattern>HG05</pattern>
+        <template>On the bottom floor of the nursing building/n Walk in the doors to the left of the front entrance/n The rooms are in order on the left from/n HG05, HG06, HG07, HG08, HG09, HG10, HG11, HG12, HG13, HG50</template>
+    </category>
+
+    <category>
+        <pattern>* HG05</pattern>
+        <template>
+            <srai>HG05</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG05 *</pattern>
+        <template>
+            <srai>HG05</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG05 *</pattern>
+        <template>
+            <srai>HG05</srai>
+        </template>
+    </category>
+
+
+
+
+
+    <category>
+        <pattern>HG06</pattern>
+        <template>
+            <srai>HG05</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* HG06 *</pattern>
+        <template>
+            <srai>HG06</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG06 *</pattern>
+        <template>
+            <srai>HG06</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG06</pattern>
+        <template>
+            <srai>HG06</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>HG07</pattern>
+        <template>
+            <srai>HG05</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG07 *</pattern>
+        <template>
+            <srai>HG07</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG07 *</pattern>
+        <template>
+            <srai>HG07</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG07</pattern>
+        <template>
+            <srai>HG07</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG08</pattern>
+        <template>
+            <srai>HG05</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG08 *</pattern>
+        <template>
+            <srai>HG08</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG08 *</pattern>
+        <template>
+            <srai>HG08</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG08</pattern>
+        <template>
+            <srai>HG08</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG09</pattern>
+        <template>
+            <srai>HG05</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG09 *</pattern>
+        <template>
+            <srai>HG09</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG09 *</pattern>
+        <template>
+            <srai>HG09</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG09</pattern>
+        <template>
+            <srai>HG09</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG10</pattern>
+        <template>
+            <srai>HG05</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG10 *</pattern>
+        <template>
+            <srai>HG10</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG10 *</pattern>
+        <template>
+            <srai>HG10</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG10</pattern>
+        <template>
+            <srai>HG10</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG11</pattern>
+        <template>
+            <srai>HG05</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG11 *</pattern>
+        <template>
+            <srai>HG11</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>HG11 *</pattern>
+        <template>
+            <srai>HG11</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* HG11</pattern>
+        <template>
+            <srai>HG11</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>HG12</pattern>
+        <template>
+            <srai>HG05</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* HG12 *</pattern>
+        <template>
+            <srai>HG12</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>HG12 *</pattern>
+        <template>
+            <srai>HG12</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* HG12</pattern>
+        <template>
+            <srai>HG12</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG13</pattern>
+        <template>
+            <srai>HG05</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* HG13 *</pattern>
+        <template>
+            <srai>HG13</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG13 *</pattern>
+        <template>
+            <srai>HG13</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG13</pattern>
+        <template>
+            <srai>HG13</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>HG50</pattern>
+        <template>
+            <srai>HG05</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* HG50 *</pattern>
+        <template>
+            <srai>HG50</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG50 *</pattern>
+        <template>
+            <srai>HG50</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG50</pattern>
+        <template>
+            <srai>HG50</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>HG17</pattern>
+        <template>Bottom floor of the nursing building/n Walk in the front entrance it is on your left.</template>
+    </category>
+
+    <category>
+        <pattern>* HG17 *</pattern>
+        <template>
+            <srai>HG17</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG17 *</pattern>
+        <template>
+            <srai>HG17</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG17</pattern>
+        <template>
+            <srai>HG17</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG18</pattern>
+        <template>
+            <srai>HG17</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* HG18 *</pattern>
+        <template>
+            <srai>HG18</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG18 *</pattern>
+        <template>
+            <srai>HG18</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG18</pattern>
+        <template>
+            <srai>HG18</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG19</pattern>
+        <template>
+            <srai>HG17</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG19 *</pattern>
+        <template>
+            <srai>HG19</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG19 *</pattern>
+        <template>
+            <srai>HG19</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG19</pattern>
+        <template>
+            <srai>HG19</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>HG20</pattern>
+        <template>On the bottom floor of the nursing building/n If you walk in the front entrance it is on your right.</template>
+    </category>
+
+    <category>
+        <pattern>* HG20 *</pattern>
+        <template>
+            <srai>HG20</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG20 *</pattern>
+        <template>
+            <srai>HG20</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG20</pattern>
+        <template>
+            <srai>HG20</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG22</pattern>
+        <template>
+            <srai>HG20</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG22 *</pattern>
+        <template>
+            <srai>HG22</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG22 *</pattern>
+        <template>
+            <srai>HG22</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG22</pattern>
+        <template>
+            <srai>HG22</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG23</pattern>
+        <template>
+            <srai>HG20</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG23 *</pattern>
+        <template>
+            <srai>HG23</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HG23 *</pattern>
+        <template>
+            <srai>HG23</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HG23</pattern>
+        <template>
+            <srai>HG23</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>H124</pattern>
+        <template>On the first floor of the nursing building/n Take a left through the doors at the top of the stairs/n It is in this hallway.</template>
+    </category>
+
+    <category>
+        <pattern>* H124 *</pattern>
+        <template>
+            <srai>H124</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>H124 *</pattern>
+        <template>
+            <srai>H124</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* H124</pattern>
+        <template>
+            <srai>H124</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>H125</pattern>
+        <template>
+            <srai>H124</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* H125 *</pattern>
+        <template>
+            <srai>H125</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>H125 *</pattern>
+        <template>
+            <srai>H125</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* H125</pattern>
+        <template>
+            <srai>H125</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>H134</pattern>
+        <template>
+            <srai>H124</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* H134 *</pattern>
+        <template>
+            <srai>H134</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>H134 *</pattern>
+        <template>
+            <srai>H134</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* H134</pattern>
+        <template>
+            <srai>H134</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>H135</pattern>
+        <template>On the first floor of the nursing building/n Take a left through the doors at the top of the stairs from the eating area/n It is on the right.</template>
+    </category>
+
+    <category>
+        <pattern>* H135 *</pattern>
+        <template>
+            <srai>H135</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>H135 *</pattern>
+        <template>
+            <srai>H135</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* H135</pattern>
+        <template>
+            <srai>H135</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>H136</pattern>
+        <template>
+            <srai>H135</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* H136 *</pattern>
+        <template>
+            <srai>H136</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>H136 *</pattern>
+        <template>
+            <srai>H136</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* H136</pattern>
+        <template>
+            <srai>H136</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>H137</pattern>
+        <template>
+            <srai>H135</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* H137 *</pattern>
+        <template>
+            <srai>H137</srai>
+        </template>
+    </category>
+
+      <category>
+        <pattern>H137 *</pattern>
+        <template>
+            <srai>H137</srai>
+        </template>
+    </category>
+
+      <category>
+        <pattern>* H137</pattern>
+        <template>
+            <srai>H137</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>H138</pattern>
+        <template>
+            <srai>H135</srai>
+        </template>
+    </category>
+
+      <category>
+        <pattern>* H138 *</pattern>
+        <template>
+            <srai>H138</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>H138 *</pattern>
+        <template>
+            <srai>H138</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* H138</pattern>
+        <template>
+            <srai>H138</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>H139</pattern>
+        <template>
+            <srai>H135</srai>
+        </template>
+    </category>
+
+      <category>
+        <pattern>* H139 *</pattern>
+        <template>
+            <srai>H139</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>H139 *</pattern>
+        <template>
+            <srai>H139</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* H139</pattern>
+        <template>
+            <srai>H139</srai>
+        </template>
+    </category>
+
+    <!-- computing building rooms -->
+
+    <category>
+        <pattern>LG25</pattern>
+        <template>LG25 is on the bottom floor of the computing building/n Walk through the front entrance and walk right/n The door is on your left.</template>
+    </category>
+
+    <category>
+        <pattern>* LG25 *</pattern>
+        <template>
+            <srai>LG25</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LG25 *</pattern>
+        <template>
+            <srai>LG25</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* LG25</pattern>
+        <template>
+            <srai>LG25</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>LG26</pattern>
+        <template>
+            <srai>LG25</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* LG26 *</pattern>
+        <template>
+            <srai>LG26</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LG26 *</pattern>
+        <template>
+            <srai>LG26</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* LG26</pattern>
+        <template>
+            <srai>LG26</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>L114</pattern>
+        <template>On the first floor of the computing building/n If you walk up the stairs it is on your right through the doors.</template>
+    </category>
+
+    <category>
+        <pattern>* L114 *</pattern>
+        <template>
+            <srai>L114</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>L114 *</pattern>
+        <template>
+            <srai>L114</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* L114</pattern>
+        <template>
+            <srai>L114</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>L101</pattern>
+        <template>
+            <srai>L114</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* L101 *</pattern>
+        <template>
+            <srai>L101</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>L101 *</pattern>
+        <template>
+            <srai>L101</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* L101</pattern>
+        <template>
+            <srai>L101</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>L125</pattern>
+        <template>L125 is on the first floor of the computing building/n Walk up the stairs it is on your left through the doors.</template>
+    </category>
+
+     <category>
+        <pattern>* L125 *</pattern>
+        <template>
+            <srai>L125</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>L125 *</pattern>
+        <template>
+            <srai>L125</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* L125</pattern>
+        <template>
+            <srai>L125</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>L128</pattern>
+        <template>On the first floor of the computing building/n Walk up the stairs take a left and keep walking/n The door is on your left.</template>
+    </category>
+
+
+     <category>
+        <pattern>* L128</pattern>
+        <template>
+            <srai>L128</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>L128 *</pattern>
+        <template>
+            <srai>L128</srai>
+        </template>
+    </category>
+
+   <category>
+        <pattern>* L128 *</pattern>
+        <template>
+            <srai>L128</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>L129</pattern>
+        <template>
+            <srai>L128</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* L129 *</pattern>
+        <template>
+            <srai>L129</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* L129</pattern>
+        <template>
+            <srai>L129</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>L129 *</pattern>
+        <template>
+            <srai>L129</srai>
+        </template>
+    </category>
+
+
+</aiml>

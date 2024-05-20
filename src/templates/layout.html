@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>DCU Chatbot</title>
+	<meta name="author" content="Mark Agnew & Sam Wood">
+	<meta name="description" content="Website for chatbot application">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../static/main.css">
+	<link rel="icon" type="image/x-icon" href="../static/Assets/images/speechico.ico"/>
+</head>
+
+<body class="body">
+	<header class="navbar">
+
+        <!-- The nav menu -->
+        <div id="myNav" class="overlay">
+
+          <!-- Button to close the navigation menu -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+          <!-- menu content -->
+          <div class="overlay-content">
+            <a href="/home">Home</a>
+            <a href="/chat">Chat</a>
+            <a href="/about">About</a>
+            <a href="/help">Help</a>
+          </div>
+
+        </div>
+        <div class="fixedbar">
+        <!-- open/show the navigation menu -->
+        <span onclick="openNav()" alt="Menu Button" class="menubutton"> Menu </span>
+            <p></p> <!-- just for spacing -->
+        </div>
+                <!-- content for the settings menu -->
+              <div id="mySettings" class="popout center">
+            <div id="options">
+                <label for="usersn">Display names over chatboxes: </label>
+            <input type="checkbox" id="usersn" name="usersn" value="checked" checked>
+            <br>
+                <label for="botcol">Bot background colour: </label>
+            <input type="color" id="botcol" name="botcol" value="#012C59">
+            <br>
+                <label for="usercol">User background colour: </label>
+            <input type="color" id="usercol" name="usercol" value="#808080">
+            <br>
+                <label for="bot_font_sz">Bot font size: </label>
+            <input id="bot_font_sz" type="number" value="17" min="1" max="60"/>
+            <br>
+                <label for="user_font_sz">User font size: </label>
+            <input id="user_font_sz" type="number" value="17" min="1" max="60"/>
+            <br>
+            <label for="fonts">Choose a font:</label>
+
+            <select id="fonts">
+                <option value="Arial">Arial</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Garamond">Garamond</option>
+                <option value="Candara">Candara</option>
+            </select>
+
+
+            </div>
+                  <!-- Button to close the settings menu -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeSettings()">&times;</a>
+      </div>
+    </header>
+	<main>
+    <br>
+    <br>
+        {% block pageContent %}{% endblock %}
+    </main>
+	<footer></footer>
+	<script type="text/javascript" src="../static/code.js"></script>
+</body>
+
+</html>

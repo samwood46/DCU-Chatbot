@@ -1,0 +1,378 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <!-- several basic phrases -->
+
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+        <random>
+            <li>I'm good thanks! What can I do for you?</li>
+            <li>Great thanks!</li>
+            <li>I'm fine! How can I help you?</li>
+            <li>I'm perfect thanks for asking! What can I help you with today?</li>
+
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GRAND </pattern>
+        <template>
+        <random>
+            <li>No problem!</li>
+            <li>Happy to help!</li>
+            <li>Any more questions let me know!</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PERFECT </pattern>
+        <template>
+            <srai>GRAND </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PERFECT *</pattern>
+        <template>
+            <srai>GRAND </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OKAY </pattern>
+        <template>
+            <srai>GRAND </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OKAY *</pattern>
+        <template>
+            <srai>GRAND </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK </pattern>
+        <template>
+            <srai>GRAND </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK * </pattern>
+        <template>
+            <srai>GRAND </srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>WHATS THE *</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT S THE</pattern>
+        <template>
+            <srai>WHATS THE</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>HOW ARE YOU *</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW IS IT GOING</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW IS IT GOING *</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW S IT GOING</pattern>
+        <template>
+            <srai>HOW IS IT GOING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOWS IT GOING</pattern>
+        <template>
+            <srai>HOW IS IT GOING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW ARE YOU *</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW ARE YOU *</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOWS THINGS</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW S THINGS</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW ARE THINGS</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+
+
+     <category>
+
+        <pattern>BYE</pattern>
+        <template>
+        <random>
+        <li>Good bye for now! Hope I was of some use!</li>
+        <li>So long! If you have any more questions know where to find me!</li>
+        <li>Until next time!</li>
+        <li>I hope was of some use to you!</li>
+
+        </random>
+        </template>
+
+    </category>
+
+<!-- able to introduce one self -->
+
+     <category>
+        <pattern>MY NAME IS *</pattern>
+            <template>
+            <random>
+            <li>Hi <set name = "username"><star/></set></li>
+            <li>Hey <set name = "username"><star/></set>, what can I do for you?</li>
+            <li>Hey <set name = "username"><star/></set>, how can I help?</li>
+            <li>Hey <set name = "username"><star/></set>, what can I do for you?</li>
+            <li>Hows it going <set name = "username"><star/></set>? What can I do for you?</li>
+            </random>
+            </template>
+    </category>
+
+    <category>
+        <pattern>MY NAMES *</pattern>
+        <template>
+            <random>
+            <li>Hi <set name = "username"><star/></set></li>
+            <li>Hey <set name = "username"><star/></set>, what can I do for you?</li>
+            <li>Hey <set name = "username"><star/></set>, how can I help?</li>
+            <li>Hey <set name = "username"><star/></set>, what can I do for you?</li>
+            <li>Hows it going <set name = "username"><star/></set>? What can I do for you?</li>
+            </random>
+            </template>
+    </category>
+
+    <category>
+        <pattern>IM *</pattern>
+        <template>
+            <random>
+            <li>Hi <set name = "username"><star/></set></li>
+            <li>Hey <set name = "username"><star/></set>, what can I do for you?</li>
+            <li>Hey <set name = "username"><star/></set>, how can I help?</li>
+            <li>Hey <set name = "username"><star/></set>, what can I do for you?</li>
+            <li>Hows it going <set name = "username"><star/></set>? What can I do for you?</li>
+            </random>
+            </template>
+    </category>
+
+    <category>
+        <pattern>I AM *</pattern>
+        <template>
+            <random>
+            <li>Hi <set name = "username"><star/></set></li>
+            <li>Hey <set name = "username"><star/></set>, what can I do for you?</li>
+            <li>Hey <set name = "username"><star/></set>, how can I help?</li>
+            <li>Hey <set name = "username"><star/></set>, what can I do for you?</li>
+            <li>Hows it going <set name = "username"><star/></set>? What can I do for you?</li>
+            </random>
+            </template>
+    </category>
+
+    <category>
+        <pattern>I'M *</pattern>
+        <template>
+            <random>
+            <li>Hi <set name = "username"><star/></set></li>
+            <li>Hey <set name = "username"><star/></set>, what can I do for you?</li>
+            <li>Hey <set name = "username"><star/></set>, how can I help?</li>
+            <li>Hey <set name = "username"><star/></set>, what can I do for you?</li>
+            <li>Hows it going <set name = "username"><star/></set>? What can I do for you?</li>
+            </random>
+            </template>
+    </category>
+
+    <!-- GOOD BYE AND THANKS MESSAGES -->
+
+    <category>
+        <pattern>GOOD BYE</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GOOD BYE</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BYE *</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+
+
+
+
+    <category>
+        <pattern>THANKS</pattern>
+        <template>
+            <random>
+            <li>Your welcome!</li>
+            <li>No problem!</li>
+            <li>I am happy to help!</li>
+            <li>No problem! If you have any more questions just ask!</li>
+            <li>Any time!</li>
+            <li>Of course! It is why I am here!</li>
+            </random>
+        </template>
+    </category>
+
+   <category>
+        <pattern>THANKS *</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* THANKS *</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* THANKS</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>THANK YOU</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* THANK YOU</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* THANK YOU *</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>THANK YOU *</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>THANKS A LOT</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>THANKS A MILL</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>THANKS A MILLION</pattern>
+        <template>
+            <srai>THANKS A MILL</srai>
+        </template>
+    </category>
+
+    <!-- For when there is ever a command that isn't recognised -->
+
+    <category>
+        <pattern>*</pattern>
+        <template>
+            <random>
+            <li>I'm sorry, I didn't quite catch that.</li>
+            <li>I don't understand. Do you need help with the campus map codes or directions</li>
+            <li>Excuse me, do you have everything typed out properly</li>
+            <li>Not sure I know what you mean, maybe type 'Help' and see if that is of any use to you?</li>
+            </random>
+        </template>
+    </category>
+
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>EXCUSE ME, DO YOU HAVE EVERYTHING TYPED OUT PROPERLY</that>
+        <template>No problem, would you like help with directions or Building Codes?</template>
+
+    </category>
+
+
+</aiml>

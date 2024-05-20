@@ -1,0 +1,1148 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- building_codes.aiml -->
+
+    <!-- different phrases on how to ask for the codes -->
+
+    <category>
+        <pattern>WHAT IS *</pattern>
+        <template>
+            <srai> <star/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHATS *</pattern>
+        <template>
+            <srai> <star/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT'S *</pattern>
+        <template>
+            <srai> <star/></srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>NOPE</pattern>
+            <template>
+            <srai>NO</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>YE</pattern>
+            <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Y</pattern>
+            <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+
+    <!-- templates are self explanatory for this section -->
+
+    <category>
+        <pattern>A</pattern>
+        <template>A is the Albert College Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+
+     <category>
+        <pattern>A *</pattern>
+        <template>A is the Albert College Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>WHAT DOES A *</pattern>
+        <template>A is the Albert College Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS A *</pattern>
+        <template>A is the Albert College Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>WHAT DOES A *</pattern>
+        <template>A is the Albert College Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* WHAT IS A *</pattern>
+        <template>A is the Albert College Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* WHAT DOES A *</pattern>
+        <template>A is the Albert College Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+
+
+
+
+     <category>
+
+        <pattern>YES</pattern>
+        <that>A IS THE ALBERT COLLEGE BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk down the path from the Ballymun entrance and take the second left/n You are at the Albert College Building.</template>
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>A IS THE ALBERT COLLEGE BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>If you need any more help I am here!</template>
+
+    </category>
+
+
+
+
+
+
+    <category>
+        <pattern>B</pattern>
+        <template>B is the invent Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>B *</pattern>
+        <template>B is the invent Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>* B *</pattern>
+        <template>B is the invent Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* B</pattern>
+        <template>B is the invent Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>B IS THE INVENT BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Go to the Library/n Take the set of stairs that is on your left/n The invent building is at the top of the stairs.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>B IS THE INVENT BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>If you need any more help I am here!</template>
+
+    </category>
+
+
+
+
+     <category>
+        <pattern>C</pattern>
+        <template>C is the Henry Grattan Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>C *</pattern>
+        <template>C is the Henry Grattan Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* C *</pattern>
+        <template>C is the Henry Grattan Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* C</pattern>
+        <template>C is the Henry Grattan Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>C IS THE HENRY GRATTAN BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk down the path from the Ballymun entrance and take the third left/n You will come to a Building with Bank of Ireland on it/n This is the Henry Grattan.</template>
+
+    </category>
+
+    <category>
+        <pattern>CG</pattern>
+        <template>
+            <srai>C</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>C1</pattern>
+        <template>
+            <srai>C</srai>
+        </template>
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>C IS THE HENRY GRATTAN BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>If you need any more help I am here!</template>
+
+    </category>
+
+
+
+
+    <category>
+        <pattern>D</pattern>
+        <template>D is the BEA Orpen Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>D *</pattern>
+        <template>D is the BEA Orpen Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>* D *</pattern>
+        <template>D is the BEA Orpen Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* D</pattern>
+        <template>D is the BEA Orpen Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>D IS THE BEA ORPEN BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk past the Henry Grattan building with it on your right/n Keep walking there and there are 2 buildings on your left/n Walk through these buildings/n Your are now at the BEA Building</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>D IS THE BEA ORPEN BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>If you need any more help I am here!</template>
+
+    </category>
+
+
+
+    <category>
+        <pattern>E</pattern>
+        <template>E is the Estates Office. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>E *</pattern>
+        <template>E is the Estates Office. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>* E *</pattern>
+        <template>E is the Estates Office. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* E</pattern>
+        <template>E is the Estates Office. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>E IS THE ESTATES OFFICE DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk past the carpark (keeping it on your right)/n The estates building is on your right.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>N0</pattern>
+        <that>E IS THE ESTATES OFFICE DO YOU NEED DIRECTIONS YES NO</that>
+        <template>If you need any more help I am here so just ask!</template>
+
+    </category>
+
+
+
+
+
+
+
+    <category>
+        <pattern>F</pattern>
+        <template>F is the Multi-Storey Car Park. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* F</pattern>
+        <template>F is the Multi-Storey Car Park. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* F *</pattern>
+        <template>F is the Multi-Storey Car Park. Do you need directions ? (Yes/No)</template>
+    </category>
+
+
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>F IS THE MULTI STOREY CAR PARK DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk into the College from the collins ave sign/n Follow the road going right/n The car park is on your right.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>F IS THE MULTI STOREY CAR PARK DO YOU NEED DIRECTIONS YES NO</that>
+        <template>If you need any more help I am here!</template>
+
+    </category>
+
+
+
+
+    <category>
+        <pattern>G</pattern>
+        <template>G is the NICB Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>G *</pattern>
+        <template>G is the NICB Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* G *</pattern>
+        <template>G is the NICB Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* G</pattern>
+        <template>G is the NICB Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>G IS THE NICB BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk into the collins ave entrance/n Take a left/n The NICB Building is the first building on your right.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>G IS THE NICB BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>If you would like any more help, please don't hesitate to ask me!</template>
+
+    </category>
+
+
+
+
+    <category>
+        <pattern>H</pattern>
+        <template>H is the Nursing Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>H *</pattern>
+        <template>H is the Nursing Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>* H *</pattern>
+        <template>H is the Nursing Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* H</pattern>
+        <template>H is the Nursing Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>HG</pattern>
+        <template>
+            <srai>H</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>H1</pattern>
+        <template>
+            <srai>H</srai>
+        </template>
+    </category>
+
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>H IS THE NURSING BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk through the collins ave entrance/n The Nursing building is the first building on your left.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>H IS THE NURSING BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>No problem! If you need anymore help I am always here!</template>
+    </category>
+
+
+
+
+    <category>
+        <pattern>J</pattern>
+        <template>J is the Hamilton Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>J *</pattern>
+        <template>J is the Hamilton Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* J *</pattern>
+        <template>J is the Hamilton Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* J</pattern>
+        <template>J is the Hamilton Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>J IS THE HAMILTON BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk into the college from Ballymun entrance/n Take the third left/n The Hamilton building is the second building on your left.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>J IS THE HAMILTION BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>No problem! If you need anymore help I am always here!</template>
+
+    </category>
+
+
+
+
+    <category>
+        <pattern>KA</pattern>
+        <template>KA is the Student Centre 'U' Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>KA *</pattern>
+        <template>KA is the Student Centre 'U' Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* KA *</pattern>
+        <template>KA is the Student Centre 'U' Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>* KA</pattern>
+        <template>KA is the Student Centre 'U' Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>KA IS THE STUDENT CENTRE U BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk into college from the Ballymun entrance/n Take the third left on this road and take a right/n The U is on your right.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>KA IS THE STUDENT CENTRE U BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Perfect! I hope I was of some use to you!</template>
+
+    </category>
+
+
+
+    <category>
+        <pattern>L</pattern>
+        <template>L is the McNulty Computing Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>L *</pattern>
+        <template>L is the McNulty Computing Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* L *</pattern>
+        <template>L is the McNulty Computing Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* L</pattern>
+        <template>L is the McNulty Computing Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>LG</pattern>
+        <template>
+            <srai>L</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>L1</pattern>
+        <template>
+            <srai>L</srai>
+        </template>
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>L IS THE MCNULTY COMPUTING BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk into the college from the ballymun road entrance/n Take the third left and you will come to the main area/n The computing building is in front of you past the seats just on your right.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>L IS THE MCNULTY COMPUTING BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Perfect! I hope I was of some use to you!</template>
+
+    </category>
+
+    <category>
+        <pattern>M</pattern>
+        <template>M is the Interfaith Centre. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>M *</pattern>
+        <template>M is the Interfaith Centre. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>* M *</pattern>
+        <template>M is the Interfaith Centre. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* M</pattern>
+        <template>M is the Interfaith Centre. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>M IS THE INTERFAITH CENTRE DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk into the the college from the Ballymun entrance and take the third left/n The Interfaith centre is on your right.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>M IS THE INTERFAITH CENTRE DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Excellent! I always here if you need any more help!</template>
+
+    </category>
+
+
+
+
+    <category>
+        <pattern>N</pattern>
+        <template>N is the Marconi Building. Do you need directions (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>N *</pattern>
+        <template>N is the Marconi Building. Do you need directions (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* N *</pattern>
+        <template>N is the Marconi Building. Do you need directions (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* N</pattern>
+        <template>N is the Marconi Building. Do you need directions (Yes/No)</template>
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>N IS THE MARCONI BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk in from the Ballymun road entrance/n Take the third left/n Pass the seats and then take a right/n The Marconi is the second building on your left.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>N IS THE MARCONI BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Perfect! I hope I was of some use to you!</template>
+    </category>
+
+
+
+    <category>
+        <pattern>P</pattern>
+        <template>P is the Pavillion. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>P *</pattern>
+        <template>P is the Pavillion. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* P *</pattern>
+        <template>P is the Pavillion. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* P</pattern>
+        <template>P is the Pavillion. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>P IS THE PAVILLION DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Perfect! I hope I was of some use to you!</template>
+
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>P IS THE PAVILLION DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk into the college from the Ballymun entrance/n Take the first left/n The pavillion is the building on your right.</template>
+
+    </category>
+
+
+
+
+    <category>
+        <pattern>PR</pattern>
+        <template>PR is the Canteen. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>PR *</pattern>
+        <template>PR is the Canteen. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* PR</pattern>
+        <template>PR is the Canteen. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* PR *</pattern>
+        <template>PR is the Canteen. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>PR IS THE CANTEEN DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk in from the Ballymun entrance/n Take the first left/n You will arrive at the back entrance to the canteen.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>PR IS THE CANTEEN DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Perfect! I hope I was of some use to you!</template>
+
+    </category>
+
+
+
+    <category>
+        <pattern>Q</pattern>
+        <template>Q is the Business Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>Q *</pattern>
+        <template>Q is the Business Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>* Q *</pattern>
+        <template>Q is the Business Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>* Q</pattern>
+        <template>Q is the Business Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>QG</pattern>
+        <template>
+            <srai>Q</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q1</pattern>
+        <template>
+            <srai>Q</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q2</pattern>
+        <template>
+            <srai>Q</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q3</pattern>
+        <template>
+            <srai>Q</srai>
+        </template>
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>Q IS THE BUSINESS BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk in through the collins ave entrance/n Take a right at the building in front of you/n The Business building is the second building on your left.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>Q IS THE BUSINESS BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Perfect! I hope I was of some use to you!</template>
+
+    </category>
+
+
+
+
+    <category>
+        <pattern>R</pattern>
+        <template>R is the Creche Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>R *</pattern>
+        <template>R is the Creche Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* R *</pattern>
+        <template>R is the Creche Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* R</pattern>
+        <template>R is the Creche Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>R IS THE CRECHE BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Come in from the Ballymun entrance/n Take the first left and walk straight/n The building is on your left. </template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>R IS THE CRECHE BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Perfect! I hope I was of some use to you!</template>
+    </category>
+
+
+
+
+    <category>
+        <pattern>S</pattern>
+        <template>S is the Stokes/Engineering Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>S *</pattern>
+        <template>S is the Stokes/Engineering Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>* S *</pattern>
+        <template>S is the Stokes/Engineering Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* S</pattern>
+        <template>S is the Stokes/Engineering Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>SG</pattern>
+        <template>
+            <srai>S</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>S1</pattern>
+        <template>
+            <srai>S</srai>
+        </template>
+    </category>
+
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>S IS THE STOKES ENGINEERING BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk into the college grounds from this entrance/n The Stokes building is the building in front of you.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>S IS THE STOKES ENGINEERING BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Perfect! I hope I was of some use to you!</template>
+
+    </category>
+
+
+
+
+
+
+
+
+    <category>
+        <pattern>T</pattern>
+        <template>T is the Terrence Larkin theatre. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>T *</pattern>
+        <template>T is the Terrence Larkin theatre. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* T *</pattern>
+        <template>T is the Terrence Larkin theatre. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* T</pattern>
+        <template>T is the Terrence Larkin theatre. Do you need directions ? (Yes/No)</template>
+    </category>
+
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>T IS THE TERRENCE LARKIN THEATRE DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk into DCU from the Ballymun entrance/n Take the third left/n You will see a round building on your left. </template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>T IS THE TERRENCE LARKIN THEATRE DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Perfect! I hope I was of some use to you!</template>
+
+    </category>
+
+
+
+    <category>
+        <pattern>U</pattern>
+        <template>U is the Student accommodation/Sports complex. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>U *</pattern>
+        <template>U is the Student accommodation/Sports complex. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* U *</pattern>
+        <template>U is the Student accommodation/Sports complex. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* U</pattern>
+        <template>U is the Student accommodation/Sports complex. Do you need directions ? (Yes/No)</template>
+    </category>
+
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>U IS THE STUDENT ACCOMMODATION SPORTS COMPLEX DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Come into college from the Ballymun entrance/n The sports complex is the building at the end of this path.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>U IS THE STUDENT ACCOMMODATION SPORTS COMPLEX DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Perfect! I hope I was of some use to you!</template>
+
+    </category>
+
+
+
+    <category>
+        <pattern>VA</pattern>
+        <template>VA is the Postgraduate Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>VA *</pattern>
+        <template>VA is the Postgraduate Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* VA *</pattern>
+        <template>VA is the Postgraduate Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>* VA</pattern>
+        <template>VA is the Postgraduate Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>VA IS THE POSTGRADUATE RESIDENCES DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk into college from the Ballymun entrance/n The first buildings on your left are the Postgraduate Residences.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>VA IS THE POSTGRADUATE RESIDENCES DO YOU NEED DIRECTIONS YES NO</that>
+        <template>n</template>
+
+    </category>
+
+
+
+
+
+    <category>
+        <pattern>VB</pattern>
+        <template>VB is the Postgraduate Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>VB *</pattern>
+        <template>VB is the Postgraduate Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* VB *</pattern>
+        <template>VB is the Postgraduate Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* VB</pattern>
+        <template>VB is the Postgraduate Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>VB IS THE POSTGRADUATE RESIDENCES DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk into college from the Ballymun entrance/n The first buildings on your left are the Postgraduate Residences.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>VB IS THE POSTGRADUATE RESIDENCES DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Perfect! I hope I was of some use to you!</template>
+
+    </category>
+
+
+    <category>
+        <pattern>V1</pattern>
+        <template>V1 is the Larkfield Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>V1 *</pattern>
+        <template>V1 is the Larkfield Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* V1 *</pattern>
+        <template>V1 is the Larkfield Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* V1</pattern>
+        <template>V1 is the Larkfield Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>V1 IS THE LARKFIELD RESIDENCES DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk in from the Ballymun entrance/n Walk through the sports complex/n Walk through the two blocks and take a left.</template>
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>V1 IS THE LARKFIELD RESIDENCES DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Perfect! I hope I was of some use to you!</template>
+
+    </category>
+
+
+
+
+
+    <category>
+        <pattern>V2</pattern>
+        <template>V2 is the Hampstead Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>V2 *</pattern>
+        <template>V2 is the Hampstead Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* V2 *</pattern>
+        <template>V2 is the Hampstead Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* V2</pattern>
+        <template>V2 is the Hampstead Residences. Do you need directions ? (Yes/No)</template>
+    </category>
+
+
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>V2 IS THE HAMPSTEAD RESIDENCES DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk in from the Ballymun entrance/n Walk through the two blocks and take a right.</template>
+
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>V2 IS THE HAMPSTEAD RESIDENCES DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Perfect! I hope I was of some use to you!</template>
+
+    </category>
+
+
+
+
+    <category>
+        <pattern>X</pattern>
+        <template>X is the Science Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+     <category>
+        <pattern>X *</pattern>
+        <template>X is the Science Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* X *</pattern>
+        <template>X is the Science Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+    <category>
+        <pattern>* X</pattern>
+        <template>X is the Science Building. Do you need directions ? (Yes/No)</template>
+    </category>
+
+
+
+    <category>
+        <pattern>XG</pattern>
+        <template>
+            <srai>X</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>X1</pattern>
+        <template>
+            <srai>X</srai>
+        </template>
+    </category>
+
+
+
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>X IS THE SCIENCE BUILDING DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Walk through the Collin's ave entrance/n The second building on your left is the science building.</template>
+
+
+    </category>
+
+    <category>
+
+        <pattern>NO</pattern>
+        <that>V2 IS THE HAMPSTEAD RESIDENCES DO YOU NEED DIRECTIONS YES NO</that>
+        <template>Perfect! I hope I was of some use to you!</template>
+
+    </category>
+
+
+</aiml>

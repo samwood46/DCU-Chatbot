@@ -1,0 +1,82 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <!-- different ways the user can be provided with information about a bus -->
+    <category>
+        <pattern>BUS</pattern>
+        <template>There is a number of buses from the College./n Would you like to see a list?</template>
+    </category>
+
+    <category>
+        <pattern>* BUS *</pattern>
+        <template>
+            <srai>BUS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BUS</pattern>
+        <template>
+            <srai>BUS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BUS *</pattern>
+        <template>
+            <srai>BUS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BUSES</pattern>
+        <template>
+            <srai>BUS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BUSES *</pattern>
+        <template>
+            <srai>BUS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BUSES *</pattern>
+        <template>
+            <srai>BUS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BUSES</pattern>
+        <template>
+            <srai>BUS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BUSES *</pattern>
+        <template>
+            <srai>BUS</srai>
+        </template>
+    </category>
+
+    <!-- a list of bus routes -->
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>THERE IS A NUMBER OF BUSES FROM THE COLLEGE  N WOULD YOU LIKE TO SEE A LIST </that>
+        <template>3, 4, 11, 11A, 11B, 13, 13A, 16, 19A - to and from city centre/n 17A - from Kilbarrack to Finglas via Glasnevin Avenue/n 103 to and from Clontarf Dart Station via Collin's Avenue/n 105- to and from Malahide via Collins Avenue(operates during semester time only)/n 33 - to andfrom Balbriggan via Swords Road/n 41, 41B and 41C - to and from Swords via Swords Road/n 104 - from Clontarf Dart station to Cappagh Hospital via Swords Road/n 16A- from lower Rathfranham to Dublin airport Swords Road/n 46X comes from Dun Laoghaire (7.30am) via Donnybrook, Leeson Street and Drumcondra</template>
+    </category>
+
+    <category>
+        <pattern>BUS LIST</pattern>
+        <template>3, 4, 11, 11A, 11B, 13, 13A, 16, 19A - to and from city centre/n 17A - from Kilbarrack to Finglas via Glasnevin Avenue/n 103 to and from Clontarf Dart Station via Collin's Avenue/n 105- to and from Malahide via Collins Avenue(operates during semester time only)/n 33 - to andfrom Balbriggan via Swords Road/n 41, 41B and 41C - to and from Swords via Swords Road/n 104 - from Clontarf Dart station to Cappagh Hospital via Swords Road/n 16A- from lower Rathfranham to Dublin airport Swords Road/n 46X comes from Dun Laoghaire (7.30am) via Donnybrook, Leeson Street and Drumcondra</template>
+    </category>
+
+
+
+</aiml>

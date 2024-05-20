@@ -1,0 +1,880 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- business_room_directions.aiml -->
+
+<!--business building ground floor -->
+
+    <category>
+        <pattern>WHERE IS *</pattern>
+        <template>
+            <srai> <star/></srai>
+        </template>
+    </category> -->
+
+    <category>
+        <pattern>QG01</pattern>
+        <template>
+        On the bottom floor of the business building/n If you stand with the stairs (in the main area) to your back/n Walk up past the exit/n QG01-QG06 are numbered on your left hand side.
+        </template>
+    </category>
+
+     <category>
+        <pattern>* QG01 *</pattern>
+        <template>
+            <srai>QG01</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG01 *</pattern>
+        <template>
+            <srai>QG01</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG01</pattern>
+        <template>
+            <srai>QG01</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>QG02</pattern>
+        <template>
+            <srai>QG01</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG02 *</pattern>
+        <template>
+            <srai>QG02</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG02 *</pattern>
+        <template>
+            <srai>QG02</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG02</pattern>
+        <template>
+            <srai>QG02</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG03</pattern>
+        <template>
+            <srai>QG01</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG03 *</pattern>
+        <template>
+            <srai>QG03</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG03 *</pattern>
+        <template>
+            <srai>QG03</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* QG03</pattern>
+        <template>
+            <srai>QG03</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG04</pattern>
+        <template>
+            <srai>QG03</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>* QG04 *</pattern>
+        <template>
+            <srai>QG04</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG04 *</pattern>
+        <template>
+            <srai>QG04</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG04</pattern>
+        <template>
+            <srai>QG04</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG06</pattern>
+        <template>
+            <srai>QG01</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG06 *</pattern>
+        <template>
+            <srai>QG06</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG06 *</pattern>
+        <template>
+            <srai>QG06</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG06</pattern>
+        <template>
+            <srai>QG06</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG13</pattern>
+        <template>On the bottom floor of the business building/n If you stand with your back facing the stairs (main area)/n The doors on this side are numbered from QG13, QG15, QG21 and QG22.</template>
+    </category>
+
+    <category>
+        <pattern>* QG13 *</pattern>
+        <template>
+            <srai>QG13</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG13 *</pattern>
+        <template>
+            <srai>QG13</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG13</pattern>
+        <template>
+            <srai>QG13</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG15</pattern>
+        <template>
+            <srai>QG13</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG15 *</pattern>
+        <template>
+            <srai>QG15</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG15 *</pattern>
+        <template>
+            <srai>QG15</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG15</pattern>
+        <template>
+            <srai>QG15</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG21</pattern>
+        <template>
+            <srai>QG13</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG21 *</pattern>
+        <template>
+            <srai>QG21</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG21 *</pattern>
+        <template>
+            <srai>QG21</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG21</pattern>
+        <template>
+            <srai>QG21</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>QG22</pattern>
+        <template>
+            <srai>QG13</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG22 *</pattern>
+        <template>
+            <srai>QG22</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG22 *</pattern>
+        <template>
+            <srai>QG22</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG22</pattern>
+        <template>
+            <srai>QG22</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG24</pattern>
+        <template>On the bottom floor of the business building/n Stand facing the stairs/n The rooms QG24, QG27, QG28 and QG30 are numbered from left to right/n They stop at the exit facing you.</template>
+    </category>
+
+    <category>
+        <pattern>* QG24 *</pattern>
+        <template>
+            <srai>QG24</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG24 *</pattern>
+        <template>
+            <srai>QG24</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG24</pattern>
+        <template>
+            <srai>QG24</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG27</pattern>
+        <template>
+            <srai>QG24</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG27 *</pattern>
+        <template>
+            <srai>QG27</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG27 *</pattern>
+        <template>
+            <srai>QG27</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG27</pattern>
+        <template>
+            <srai>QG27</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG28</pattern>
+        <template>
+            <srai>QG24</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG28 *</pattern>
+        <template>
+            <srai>QG28</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG28 *</pattern>
+        <template>
+            <srai>QG28</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG28</pattern>
+        <template>
+            <srai>QG28</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG30</pattern>
+        <template>
+            <srai>QG24</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG30 *</pattern>
+        <template>
+            <srai>QG30</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QG30 *</pattern>
+        <template>
+            <srai>QG30</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QG30</pattern>
+        <template>
+            <srai>QG30</srai>
+        </template>
+    </category>
+
+    <!-- the first floor of the business building -->
+
+    <category>
+        <pattern>Q157</pattern>
+        <template>The first floor in the business building/n Go up the stairs (from the main area)/n Q157 is at the top of the stairs and Q158 is just to the right of it.</template>
+    </category>
+
+    <category>
+        <pattern>* Q157 *</pattern>
+        <template>
+            <srai>Q157</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q157 *</pattern>
+        <template>
+            <srai>Q157</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q157</pattern>
+        <template>
+            <srai>Q157</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q158</pattern>
+        <template>
+            <srai>Q157</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q158 *</pattern>
+        <template>
+            <srai>Q158</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q158 *</pattern>
+        <template>
+            <srai>Q158</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q158</pattern>
+        <template>
+            <srai>Q158</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>Q122</pattern>
+        <template>The first floor in the business building/n If you go up the stairs (in the main area)/n Turn left the rooms Q122, Q121, Q120, Q119.</template>
+    </category>
+
+    <category>
+        <pattern>* Q122 *</pattern>
+        <template>
+            <srai>Q122</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q122</pattern>
+        <template>
+            <srai>Q122</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>Q122 *</pattern>
+        <template>
+            <srai>Q122</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q121</pattern>
+        <template>
+            <srai>Q122</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q121 *</pattern>
+        <template>
+            <srai>Q121</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q121 *</pattern>
+        <template>
+            <srai>Q121</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q121</pattern>
+        <template>
+            <srai>Q121</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q120</pattern>
+        <template>
+            <srai>Q122</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q120 *</pattern>
+        <template>
+            <srai>Q120</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q120 *</pattern>
+        <template>
+            <srai>Q120</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q120</pattern>
+        <template>
+            <srai>Q120</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q119</pattern>
+        <template>
+            <srai>Q122</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q119 *</pattern>
+        <template>
+            <srai>Q119</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>Q119 *</pattern>
+        <template>
+            <srai>Q119</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* Q119</pattern>
+        <template>
+            <srai>Q119</srai>
+        </template>
+    </category>
+
+    <!-- the second floor of the business building -->
+
+    <category>
+        <pattern>Q219</pattern>
+        <template>The second floor of the business building/n Go to the top of the stairs and keep the Cafe on your right/n Q219 and Q220 are on the left hand side.</template>
+    </category>
+
+    <category>
+        <pattern>* Q219 *</pattern>
+        <template>
+            <srai>Q219</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q219 *</pattern>
+        <template>
+            <srai>Q219</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q219</pattern>
+        <template>
+            <srai>Q219</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q220</pattern>
+        <template>
+            <srai>Q219</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q220 *</pattern>
+        <template>
+            <srai>Q220</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q220 *</pattern>
+        <template>
+            <srai>Q220</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q220</pattern>
+        <template>
+            <srai>Q220</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q218</pattern>
+        <template>The second floor in the business building/n Go to the top of the stairs Q218 is directly opposite the cafe. </template>
+
+    </category>
+
+    <category>
+        <pattern>* Q218 *</pattern>
+        <template>
+            <srai>Q218</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q218 *</pattern>
+        <template>
+            <srai>Q218</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q218</pattern>
+        <template>
+            <srai>Q218</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q217</pattern>
+        <template>The second floor in the business building/n Go to the top of the stairs and walk right/n Q217 is on the side opposite the Cafe, past Q218 on the right.</template>
+    </category>
+
+    <category>
+        <pattern>* Q217 *</pattern>
+        <template>
+            <srai>Q217</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q217 *</pattern>
+        <template>
+            <srai>Q217</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q217</pattern>
+        <template>
+            <srai>Q217</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q205</pattern>
+        <template>The second floor in the business building/n Go to the top of the stairs and walk right/n Q218, Q217, Q205 and Q202 are numbered beginning on your right.</template>
+    </category>
+
+    <category>
+        <pattern>* Q205 *</pattern>
+        <template>
+            <srai>Q205</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q205 *</pattern>
+        <template>
+            <srai>Q205</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q205</pattern>
+        <template>
+            <srai>Q205</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q202</pattern>
+        <template>
+            <srai>Q205</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q202 *</pattern>
+        <template>
+            <srai>Q202</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q202 *</pattern>
+        <template>
+            <srai>Q202</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* Q202</pattern>
+        <template>
+            <srai>Q202</srai>
+        </template>
+    </category>
+
+    <!-- the third floor of the business building -->
+
+    <category>
+        <pattern>Q303</pattern>
+        <template>Go to the top of the stairs and walk left/n Q303, Q304, Q305 and Q306 are numbered on your left hand side in that order.</template>
+    </category>
+
+    <category>
+        <pattern>* Q303 *</pattern>
+        <template>
+            <srai>Q303</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q303 *</pattern>
+        <template>
+            <srai>Q303</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q303</pattern>
+        <template>
+            <srai>Q303</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q304</pattern>
+        <template>
+            <srai>Q303</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q304 *</pattern>
+        <template>
+            <srai>Q304</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q304 *</pattern>
+        <template>
+            <srai>Q304</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q304</pattern>
+        <template>
+            <srai>Q304</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>Q305</pattern>
+        <template>
+            <srai>Q303</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q305 *</pattern>
+        <template>
+            <srai>Q305</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q305 *</pattern>
+        <template>
+            <srai>Q305</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q305</pattern>
+        <template>
+            <srai>Q305</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q306</pattern>
+        <template>
+            <srai>Q303</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q306 *</pattern>
+        <template>
+            <srai>Q306</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>Q306 *</pattern>
+        <template>
+            <srai>Q306</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* Q306</pattern>
+        <template>
+            <srai>Q306</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>Q301</pattern>
+        <template>Go to the top of the stairs and walk right/n Q302 and Q301 are numbered on your right in this order.</template>
+    </category>
+
+     <category>
+        <pattern>* Q301 *</pattern>
+        <template>
+            <srai>Q301</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q301 *</pattern>
+        <template>
+            <srai>Q301</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q301</pattern>
+        <template>
+            <srai>Q301</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q302</pattern>
+        <template>
+            <srai>Q301</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q302 *</pattern>
+        <template>
+            <srai>Q302</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* Q302</pattern>
+        <template>
+            <srai>Q302</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Q302 *</pattern>
+        <template>
+            <srai>Q302</srai>
+        </template>
+    </category>
+
+
+</aiml>

@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+{% block pageContent %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <div>
+        <div id="chatbox">
+            <p class="botname">Chatbot:</p>
+            <p class="botText">Hi! Welcome to the DCU ChatBot</p>
+        </div>
+
+        <div id="userInput">
+            <span class = inline>
+                <!-- Button open the settings menu -->
+               <img src="../static/Assets/images/settings_image.png" id="settings_button"  onclick="openSettings()"
+                    alt="settings" >
+                <!--  messagee text box -->
+              <input id="textInput" type="text"  maxlength = "80" name="msg" placeholder="Message" />
+                <!-- send message button -->
+              <input id="buttonInput" type="submit" value="Send" />
+                </span>
+        </div>
+
+      <script>
+        function getBotResponse() {
+          var rawText = $("#textInput").val();  <!-- get the users message from the text entry -->
+          var userHtml = '<p class="username">User:</p><p class="userText">' + rawText + "</p>";  <!-- display entered message in user textbox  -->
+          $("#textInput").val("");  <!-- clear the text box after previous entry -->
+          $("#chatbox").append(userHtml);
+          document
+            .getElementById("userInput")
+            .scrollIntoView({ block: "start", behavior: "smooth" });
+          $.get("/get", { msg: rawText }).done(function(data) {  <!--  send message to python -->
+              var res = data.split("/n");  <!-- split messages on new line character -->
+              var i;
+              var botHtml;
+              for (i = 0; i < res.length; i++) {     <!-- for each messages in the list of split messages -->
+                  if (res[i].startsWith("../static/Assets/images/")){ <!-- check if message is an image -->
+                    botHtml = '<p class="botname">Chatbot:</p><br><br><img  alt="botimage" class="botText" ' +
+                        'src="' + res[i] + '"><br><br>';
+                  $("#chatbox").append(botHtml); <!--  Display the image -->
+                  }
+                  else {
+                      botHtml = '<p class="botname">Chatbot:</p><p class="botText">' + res[i] + "</p>";
+                      $("#chatbox").append(botHtml); <!--  Display the bots message -->
+                  }
+              }
+
+            document
+              .getElementById("userInput")
+              .scrollIntoView({ block: "start", behavior: "smooth" });
+          });
+        }
+        $("#textInput").keypress(function(e) {
+          if (e.which === 13) {        <!--  if enter hit while using text box get a response-->
+            getBotResponse();
+          }
+        });
+        $("#buttonInput").click(function() { <!--  if the send button is clicked get a response -->
+          getBotResponse();
+        })
+      </script>
+    </div>
+{% endblock %}

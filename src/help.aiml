@@ -1,0 +1,152 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- help.aiml -->
+
+    <category>
+        <pattern>NOPE</pattern>
+            <template>
+            <srai>NO</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>YE</pattern>
+            <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Y</pattern>
+            <template>
+            <srai>YES</srai>
+        </template>
+    </category>
+
+    <!-- basic help function -->
+
+    <category>
+        <pattern>HELP</pattern>
+        <template>Text 'BUILDING CODES MORE'/n 'ROOM DIRECTIONS MORE' /n 'BUILDING DIRECTIONS MORE'/n 'BUILDING IMAGES MORE'/n 'SHOP DIRECTIONS MORE'/n 'BUS INFORMATION MORE'/n for information on these features.</template>
+    </category>
+
+    <category>
+        <pattern>SHOP DIRECTIONS MORE</pattern>
+        <template>There is a number of places where you can eat and purchase food/n You need only text the name for directions/n For a list text 'SHOP LIST'</template>
+    </category>
+
+    <category>
+        <pattern>BUS INFORMATION MORE</pattern>
+        <template>Are you looking for a bus home?/n For a list of buses with their routes that come and go from DCU please type 'BUS LIST'</template>
+    </category>
+
+
+
+    <!-- list of food stores on campus -->
+
+    <category>
+        <pattern>SHOP LIST</pattern>
+        <template>Buy food at: The Canteen/n Nursing Building Canteen/n Helix Cafe/n Londis/n Library Canteen/n Nubar</template>
+    </category>
+
+    <category>
+        <pattern>SHOPS LIST</pattern>
+            <template>
+            <srai>SHOP LIST</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+
+        <pattern>YES</pattern>
+        <that>CURRENTLY I AM PROGRAMMED TO ANSWER QUERIES ABOUT BUILDING CODES ON THE CAMPUS MAP AND DIRECTIONS TO VARIOUS BUILDINGS IF YOU HAVE ANY QUERIES ABOUT DIRECTIONS OR CODES JUST ASK ME IF YOU WOULD LIKE A DETAILED DESCRIPTION OF INSTRUCTIONS ON THE CURRENT FEATURES PLEASE TEXT INSTRUCTIONS OR YES FOLLOWING THIS MESSAGE</that>
+        <template>
+        The functions are as follows: BUILDING CODES, BUILDING DIRECTIONS, ROOM DIRECTIONS, BUILDING IMAGES. You can send on a building code from the campus map to see what it means, following this you can ask for a description of the location for this building. Building directions can be acquired by sending on the name of the building itself. Like wise with the lecture rooms. For further details on each please send the name of the function as described followed by 'MORE'.
+        </template>
+
+    </category>
+
+
+   <category>
+        <pattern>BUILDING CODES MORE</pattern>
+        <template>
+        Text me the name of the building and I will tell you which building it is/n Would you like to see an example ?
+        </template>
+   </category>
+
+   <category>
+        <pattern>YES</pattern>
+        <that>TEXT ME THE NAME OF THE BUILDING AND I WILL TELL YOU WHICH BUILDING IT IS N WOULD YOU LIKE TO SEE AN EXAMPLE</that>
+        <template>
+        <random>
+        <li>User: C/n Chatbot: C is the Henry Grattan Building. Would you like directions?/n You can then be provided with directions to this building either from the collins avenue or the ballymun road entrance.</li>
+        </random>
+        </template>
+   </category>
+
+   <category>
+        <pattern>BUILDING DIRECTIONS MORE</pattern>
+        <template>
+        Text me the name of a building on the DCU campus and I will direct you from either the ballymun or collin's avenue entrances/n Would you like to see an example ?
+        </template>
+   </category>
+
+   <category>
+        <pattern>YES</pattern>
+        <that>TEXT ME THE NAME OF A BUILDING ON THE DCU CAMPUS AND I WILL DIRECT YOU FROM EITHER THE BALLYMUN OR COLLIN S AVENUE ENTRANCES N WOULD YOU LIKE TO SEE AN EXAMPLE</that>
+        <template>
+        User: Where is the Computing building?/n Chatbot: The Computing Building is located in the main area of campus. If you are coming from the ballymun road entrance and take the third left you will come to the main area. If you keep walking the computing building is past the seats just on your right.
+        </template>
+   </category>
+
+   <category>
+        <pattern>ROOM DIRECTIONS MORE</pattern>
+        <template>
+        Send me the room code and I will direct you from inside that building!/n For a list of rooms you can text the building name followed by 'rooms'/n Would you like to see an example?
+        </template>
+   </category>
+
+   <category>
+        <pattern>YES</pattern>
+        <that>SEND ME THE ROOM CODE AND I WILL DIRECT YOU FROM INSIDE THAT BUILDING N TO SEE A LIST OF ROOMS YOU CAN TEXT THE BUILDING NAME FOLLOWED BY  ROOMS  N WOULD YOU LIKE TO SEE AN EXAMPLE </that>
+        <template>
+        User: Where is HG05/n Chatbot: On the bottom floor of the nursing building. If you walk in the doors to the left of the front entrance.
+        </template>
+   </category>
+
+   <category>
+        <pattern>BUSINESS BUILDING ROOMS</pattern>
+        <template>QG01, QG02, QG03, QG03, QG04, QG06, QG13, QG15, QG21, QG22, QG24, QG27, QG28, QG30, Q157, Q158, Q122, Q121, Q120, Q119, Q219, Q220, Q218, Q217, Q205, Q202, Q301, Q302, Q303, Q304, Q305, Q306</template>
+   </category>
+
+   <category>
+        <pattern>NURSING BUILDING ROOMS</pattern>
+        <template>HG05, HG06, HG07, HG08, HG09, HG10, HG11, HG12, HG13, HG50, HG17, HG18, HG19, HG22, HG23, H124, H125, H134, H135, H136, H137, H138, H139</template>
+   </category>
+
+   <category>
+        <pattern>COMPUTING BUILDING ROOMS</pattern>
+        <template>LG25, LG26, L114, L101, L125, L128, L129</template>
+   </category>
+
+   <category>
+        <pattern>BUILDING IMAGES MORE</pattern>
+        <template>Text the building name followed by 'IMAGE'/n For a list of some of the images that can be sent please text 'BUILDING IMAGE LIST'</template>
+  </category>
+
+   <!-- provides the user with a list of some of the buildings that can be viewed -->
+
+  <category>
+        <pattern>BUILDING IMAGE LIST</pattern>
+        <template>
+        <random>
+        <li>Some of the building images are:/n Computing Building/n Engineering Building/n Helix/n Henry Grattan Building/n Invent Building</li>
+        <li>Some of the building images are:/n BEA Orpen Building/n Albert College Building/n Nursing Building/n U Building/n Business Building</li>
+        <li>Some of the building images are:/n Canteen/n Car Park/n Terrence Larkin Building/n Postgraduate Building/n Computing Building</li>
+        </random>
+        </template>
+  </category>
+
+
+</aiml>

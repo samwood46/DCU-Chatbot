@@ -1,0 +1,46 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- other_aiml.aiml -->
+
+
+
+
+<!-- topic tag -->
+
+<category>
+    <pattern>* A *</pattern>
+    <template>
+        <think><set name = "topic">ALBERT</set></think>
+        A is the Albert college building. Would you like a location description or directions or list of rooms
+    </template>
+</category>
+
+<category>
+    <pattern>LETS TALK ABOUT CATS</pattern>
+    <template>
+        <think><set name = "topic">CATS</set></think>
+        yes lets discuss cats!
+    </template>
+</category>
+
+<topic name="ALBERT">
+    <category>
+        <pattern>DIRECTIONS</pattern>
+        <template>Big pointy ears</template>
+    </category>
+
+    <category>
+        <pattern>LOCATION DESCRIPTION</pattern>
+        <template>Yes please</template>
+    </category>
+
+
+</topic>
+
+<topic name="CATS">
+    <category>
+         <pattern>WHAT DO THEY LOOK LIKE</pattern>
+         <template>small and fury</template>
+    </category>
+</topic>
+
+</aiml>

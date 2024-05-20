@@ -1,0 +1,170 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- shops.aiml -->
+
+    <!-- directions to shops given similar to the buildings directions file -->
+
+    <category>
+        <pattern>LONDIS</pattern>
+        <template>Walk into college from the Ballymun entrance/n Take the third left on this road and take a right/n Londis is on your right.</template>
+    </category>
+
+    <category>
+        <pattern>NURSING CANTEEN</pattern>
+        <template>On the bottom floor of the nursing building/n Walk in the doors and continue to walk/n The Canteen is beside the stairs</template>
+    </category>
+
+    <category>
+        <pattern>NURSING CANTEEN *</pattern>
+        <template>
+            <srai>NURSING CANTEEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* NURSING CANTEEN *</pattern>
+        <template>
+            <srai>NURSING CANTEEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* NURSING CANTEEN</pattern>
+        <template>
+            <srai>NURSING CANTEEN</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>NURSING BUILDING CANTEEN</pattern>
+        <template>
+            <srai>NURSING CANTEEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>NURSING BUILDING CANTEEN *</pattern>
+        <template>
+            <srai>NURSING BUILDING CANTEEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* NURSING BUILDING CANTEEN *</pattern>
+        <template>
+            <srai>NURSING BUILDING CANTEEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* NURSING BUILDING CANTEEN</pattern>
+        <template>
+            <srai>NURSING BUILDING CANTEEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BUSINESS BUILDING CANTEEN</pattern>
+        <template>Go to the second floor of the business building/n Go to the top of the main stairs abd you will see the Cafe on your right</template>
+    </category>
+
+    <category>
+        <pattern>* BUSINESS BUILDING CANTEEN</pattern>
+        <template>
+            <srai>BUSINESS BUILDING CANTEEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BUSINESS BUILDING CANTEEN *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING CANTEEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BUSINESS BUILDING CANTEEN *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING CANTEEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LIBRARY CANTEEN</pattern>
+        <template>The library is located closest to the entrance on Collin's avenue/n Walk in through this entrance and take a left at the building in front of you/n Walk in the next set of doors on your right (Science building)and keep walking until you come out the other side/n Walk down the stairs just past the Green and you're at the canteen</template>
+    </category>
+
+     <category>
+        <pattern>* LIBRARY CANTEEN *</pattern>
+        <template>
+            <srai>LIBRARY CANTEEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LIBRARY CANTEEN *</pattern>
+        <template>
+            <srai>LIBRARY CANTEEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* LIBRARY CANTEEN</pattern>
+        <template>
+            <srai>LIBRARY CANTEEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELIX CAFE</pattern>
+        <template>Walk down the path from the Ballymun entrance and take the third left/n The Building past the BOI building is the helix/n Walk through the doors and you will arrive at the helix cafe</template>
+    </category>
+
+    <category>
+        <pattern>* HELIX CAFE *</pattern>
+        <template>
+            <srai>HELIX CAFE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELIX CAFE *</pattern>
+        <template>
+            <srai>HELIX CAFE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HELIX CAFE</pattern>
+        <template>
+            <srai>HELIX CAFE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>NUBAR</pattern>
+        <template>Walk down the Ballymun entrance/n Take a left before the Sports Complex/n Nubar is the first door on your left</template>
+    </category>
+
+    <category>
+        <pattern>* NUBAR</pattern>
+        <template>
+            <srai>NUBAR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>NUBAR *</pattern>
+        <template>
+            <srai>NUBAR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* NUBAR *</pattern>
+        <template>
+            <srai>NUBAR</srai>
+        </template>
+    </category>
+</aiml>

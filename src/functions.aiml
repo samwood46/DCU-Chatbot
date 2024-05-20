@@ -1,0 +1,188 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- functions.aiml -->
+
+    <!-- several different ways of asking about the apps functions -->
+
+    <category>
+        <pattern>CODES</pattern>
+
+        <template>
+            <random>
+            <li>What code is it?</li>
+            <li>My specialty! Send it on and i'll help you out!</li>
+            <li>What Building code are you unsure of?</li>
+            <li>This is what I am here for! Send me that code for decyphering!</li>
+            <li>Send me on the code whenever you are ready!</li>
+            <li>Codes? Of course!</li>
+            </random>
+        </template>
+    </category>
+
+   <category>
+        <pattern>CODES *</pattern>
+        <template>
+            <srai>CODES</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CODES</pattern>
+        <template>
+            <srai>CODES</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CODES *</pattern>
+        <template>
+            <srai>CODES</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>BUILDING CODES</pattern>
+        <template>
+            <srai>CODES</srai>
+        </template>
+    </category>
+
+
+   <category>
+        <pattern>BUILDING CODES *</pattern>
+        <template>
+            <srai>CODES</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROOM DIRECTIONS</pattern>
+        <template>
+        <random>
+        <li>I can definitely help with rooms! send me on the room name and I'll see if I can help. For more information text "ROOM DIRECTIONS MORE"</li>
+        <li>Certainly! whats the room called? Remember you can get more info on this by texting "ROOM DIRECTIONS MORE"</li>
+        </random>
+        </template>
+
+   </category>
+
+   <category>
+        <pattern>ROOMS</pattern>
+        <template>
+            <srai>ROOM DIRECTIONS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CAN YOU HELP ME WITH ROOMS PLEASE</pattern>
+        <template>
+            <srai>ROOM DIRECTIONS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CAN YOU HELP ME WITH ROOMS</pattern>
+        <template>
+            <srai>ROOM DIRECTIONS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROOMS *</pattern>
+        <template>
+            <srai>ROOM DIRECTIONS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ROOMS *</pattern>
+        <template>
+            <srai>ROOM DIRECTIONS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ROOMS</pattern>
+        <template>
+            <srai>ROOM DIRECTIONS</srai>
+        </template>
+    </category>
+
+     <category>
+
+        <pattern>DIRECTIONS</pattern>
+        <template>
+        <random>
+            <li>Where do you want to go? Just the name of the building would be fine/n Note that the directions are described with reference to the entrances on collin's avenue and ballymun road.</li>
+            <li>Where is it you want to go? You can send me the Code you are looking for and I will be able to direct you to it.</li>
+            <li>Send me the name of the building and I will try and direct you!</li>
+            <li>Which building are you looking for? I might be able to help!</li>
+            <li>I can certainly help you with directions! Are you looking for A room or a building?</li>
+        </random>
+        </template>
+
+    </category>
+
+    <category>
+        <pattern>* DIRECTIONS</pattern>
+        <template>
+            <srai>DIRECTIONS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* DIRECTIONS *</pattern>
+        <template>
+            <srai>DIRECTIONS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CAN YOU HELP ME WITH DIRECTIONS PLEASE</pattern>
+        <template>
+            <srai>DIRECTIONS</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>BUILDING</pattern>
+        <that>I CAN CERTAINLY HELP YOU WITH DIRECTIONS ARE YOU LOOKING FOR A ROOM OR A BUILDING</that>
+        <template>
+        <random>
+            <li>Send me on the what building it is you are looking for and I shall direct you/n Remember that these directions are referenced using the College entrances on Collins' avenue and Ballymun Road.</li>
+            <li>No problem! What building are you looking for</li>
+            <li>My specialty! Send me on the name of the building</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BUILDING *</pattern>
+        <template>
+            <srai>BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROOM</pattern>
+        <that>I CAN CERTAINLY HELP YOU WITH DIRECTIONS ARE YOU LOOKING FOR A ROOM OR A BUILDING</that>
+        <template>
+        <random>
+            <li>Of course I can help you with Rooms. Send me on the Room and I will direct you.</li>
+            <li>No problem. What is the room you are looking for?</li>
+            <li>My specialty! Send me on the name of the room</li>
+        </random>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>DIRECTIONS *</pattern>
+        <template>
+            <srai>DIRECTIONS</srai>
+        </template>
+    </category>
+
+
+ </aiml>

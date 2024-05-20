@@ -1,0 +1,176 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- functions.aiml -->
+
+<!--
+- Where is Registry?
+- What are the opening hours?
+- How do I get a replacement student card?
+- How do I get a letter stamped or signed?
+- Where can I find my timetable?
+- How do I change my modules?
+- Am I registered correctly?
+- When is Graduation?
+-->
+    <category>
+        <pattern>AM I REGISTERED CORRECTLY </pattern>
+        <template>You can enquire about this in the offices in the Henry Grattan Building.</template>
+    </category>
+
+    <category>
+        <pattern>WHERE IS REGISTRY</pattern>
+        <template>The offices in the Henry Grattan Building.</template>
+    </category>
+
+    <category>
+        <pattern>WHERE IS THE REGISTRY </pattern>
+        <template>
+            <srai>WHERE IS REGISTRY</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>REGISTRY</pattern>
+        <template>
+            <srai>WHERE IS REGISTRY</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW DO I GET A LETTER STAMPED AND SIGNED </pattern>
+        <template>You can enquire about letters at the registry office in the Henry Grattan Building.</template>
+    </category>
+
+    <category>
+        <pattern>* LETTER STAMPED *</pattern>
+        <template>
+            <srai>HOW DO I GET A LETTER STAMPED AND SIGNED </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE DO I GET A LETTER STAMPED AND SIGNED </pattern>
+        <template>You can enquire about letters at the registry office in the Henry Grattan Building.</template>
+    </category>
+
+    <category>
+        <pattern>WHERE CAN I GET A NEW STUDENT CARD </pattern>
+        <template>You can make enquiries about your student card at the top floor of the Student U building.</template>
+    </category>
+
+    <category>
+        <pattern>STUDENT CARD</pattern>
+        <template>
+            <srai>WHERE CAN I GET A NEW STUDENT CARD</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* STUDENT CARD *</pattern>
+        <template>
+            <srai>WHERE CAN I GET A NEW STUDENT CARD</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* STUDENT CARD </pattern>
+        <template>
+            <srai>WHERE CAN I GET A NEW STUDENT CARD</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* STUDENT CARD</pattern>
+        <template>
+            <srai>WHERE CAN I GET A NEW STUDENT CARD</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>STUDENT CARD *</pattern>
+        <template>
+            <srai>WHERE CAN I GET A NEW STUDENT CARD</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE CAN I GET MY TIMETABLE </pattern>
+        <template>You can get the time table at the following link/n https://www.dcu.ie/registry/Open-Timetables.shtml</template>
+    </category>
+
+    <category>
+        <pattern>* OPENING HOURS </pattern>
+        <template>DCU facilities will be open by 9 AM/n The Canteen and Food stores will be open from 8 AM Monday to Friday</template>
+    </category>
+
+    <category>
+        <pattern>* OPENING HOURS *</pattern>
+        <template>DCU facilities will be open by 9 AM/n The Canteen and Food stores will be open from 8 AM Monday to Friday</template>
+    </category>
+
+    <category>
+        <pattern>* OPEN </pattern>
+        <template>DCU facilities will be open by 9 AM/n The Canteen and Food stores will be open from 8 AM Monday to Friday</template>
+    </category>
+
+
+    <category>
+        <pattern>* TIMETABLE</pattern>
+        <template>
+            <srai>WHERE CAN I GET MY TIMETABLE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TIMETABLE *</pattern>
+        <template>
+            <srai>WHERE CAN I GET MY TIMETABLE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TIMETABLE *</pattern>
+        <template>
+            <srai>WHERE CAN I GET MY TIMETABLE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TIMETABLE</pattern>
+        <template>
+            <srai>WHERE CAN I GET MY TIMETABLE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHEN IS GRADUATION </pattern>
+        <template>DCU graduation is usually the first or second week in November each year.</template>
+    </category>
+
+    <category>
+        <pattern>HOW DO I CHANGE MY MODULES </pattern>
+        <template>You can enquire about module change at the registry office in the Henry Grattan Building.</template>
+    </category>
+
+    <category>
+        <pattern>* MODULE</pattern>
+        <template>
+            <srai>HOW DO I CHANGE MY MODULES </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* MODULE *</pattern>
+        <template>
+            <srai>HOW DO I CHANGE MY MODULES </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MODULE *</pattern>
+        <template>
+            <srai>HOW DO I CHANGE MY MODULES </srai>
+        </template>
+    </category>
+
+
+</aiml>

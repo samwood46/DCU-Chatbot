@@ -1,0 +1,1037 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- building_directions.aiml -->
+
+<!-- number of phrases that can be used to ask the question -->
+
+    <category>
+        <pattern>THE *</pattern>
+        <template>
+            <srai> <star/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE IS *</pattern>
+        <template>
+            <srai> <star/></srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>LIBRARY</pattern>
+        <template>The library is located closest to the entrance on Collin's avenue/n Walk in through this entrance and take a left at the building in front of you/n Walk in the next set of doors on your right (Science building)and keep walking until you come out the other side/n The Library is the building over looking the green.</template>
+    </category>
+
+    <category>
+        <pattern>* LIBRARY *</pattern>
+        <template>
+            <srai>LIBRARY</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LIBRARY *</pattern>
+        <template>
+            <srai>LIBRARY</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* LIBRARY</pattern>
+        <template>
+            <srai>LIBRARY</srai>
+        </template>
+    </category>
+
+
+
+
+     <category>
+        <pattern>ALBERT COLLEGE BUILDING</pattern>
+        <template>Walk down the path from the Ballymun entrance and take the second left/n You are at the Albert College Building.</template>
+    </category>
+
+    <category>
+        <pattern>* ALBERT COLLEGE BUILDING *</pattern>
+        <template>Walk down the path from the Ballymun entrance and take the second left/n You are at the Albert College Building.</template>
+    </category>
+
+    <category>
+        <pattern>ALBERT COLLEGE BUILDING *</pattern>
+        <template>Walk down the path from the Ballymun entrance and take the second left/n You are at the Albert College Building.</template>
+    </category>
+
+
+    <category>
+        <pattern>ALBERT COLLEGE</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALBERT COLLEGE *</pattern>
+        <template>
+            <srai>ALBERT COLLEGE BUILDING</srai>
+        </template>
+    </category>
+
+
+    <category>
+
+        <pattern>INVENT BUILDING</pattern>
+        <template>Go to the Libaray/n Take the set of stair that is on your left/n The invent building is at the top of the stairs.</template>
+
+    </category>
+
+    <category>
+        <pattern>INVENT</pattern>
+        <template>
+            <srai>INVENT BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* INVENT</pattern>
+        <template>
+            <srai>INVENT BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* INVENT *</pattern>
+        <template>
+            <srai>INVENT BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>INVENT *</pattern>
+        <template>
+            <srai>INVENT BUILDING</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+
+        <pattern>HENRY GRATTAN BUILDING</pattern>
+        <template>Walk down the path from the Ballymun entrance and take the third left/n You will come to a Building with Bank of Ireland on it/n This is the Henry Grattan.</template>
+
+    </category>
+
+    <category>
+        <pattern>* HENRY GRATTAN</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HENRY GRATTAN *</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HENRY GRATTAN *</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HENRY GRATTAN</pattern>
+        <template>
+            <srai>HENRY GRATTAN BUILDING</srai>
+        </template>
+    </category>
+
+
+    <category>
+
+        <pattern>BEA ORPEN BUILDING</pattern>
+        <template>Walk past the Henry Grattan building with it on your right/n Keep walking there and there are 2 buildings on your left/n Walk through these buildings/n Your are now at the BEA Building</template>
+
+    </category>
+
+    <category>
+        <pattern>BEA ORPEN</pattern>
+        <template>
+            <srai>BEA ORPEN BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BEA ORPEN *</pattern>
+        <template>
+            <srai>BEA ORPEN BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BEA ORPEN *</pattern>
+        <template>
+            <srai>BEA ORPEN BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BEA ORPEN</pattern>
+        <template>
+            <srai>BEA ORPEN BUILDING</srai>
+        </template>
+    </category>
+
+
+    <category>
+
+        <pattern>ESTATES OFFICE</pattern>
+        <template>Walk past the carpark (keeping it on your right)/n The estates building is on your right.</template>
+
+    </category>
+
+    <category>
+        <pattern>ESTATES OFFICE *</pattern>
+        <template>
+            <srai>ESTATES OFFICE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ESTATES OFFICE *</pattern>
+        <template>
+            <srai>ESTATES OFFICE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ESTATES OFFICE</pattern>
+        <template>
+            <srai>ESTATES OFFICE</srai>
+        </template>
+    </category>
+
+
+    <category>
+
+        <pattern>CARPARK</pattern>
+        <template>Walk into the College from the collins ave sign/n Follow the road going right/n The car park is on your right.</template>
+
+    </category>
+
+    <category>
+        <pattern>CARPARK *</pattern>
+        <template>
+            <srai>CARPARK</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CARPARK *</pattern>
+        <template>
+            <srai>CARPARK</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CARPARK</pattern>
+        <template>
+            <srai>CARPARK</srai>
+        </template>
+    </category>
+
+    <category>
+
+        <pattern>NICB BUILDING</pattern>
+        <template>Walk into the collins ave entrance/n Take a left/n The NICB Building is the first building on your right.</template>
+
+    </category>
+
+    <category>
+        <pattern>NICB</pattern>
+        <template>
+            <srai>NICB BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* NICB</pattern>
+        <template>
+            <srai>NICB BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* NICB *</pattern>
+        <template>
+            <srai>NICB BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>NICB *</pattern>
+        <template>
+            <srai>NICB BUILDING</srai>
+        </template>
+    </category>
+
+
+
+
+
+    <category>
+
+        <pattern>NURSING BUILDING</pattern>
+        <template>Walk through the collins ave entrance/n The Nursing building is the first building on your left.</template>
+
+    </category>
+
+    <category>
+        <pattern>* NURSING BUILDING *</pattern>
+        <template>
+            <srai>NURSING BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>NURSING BUILDING *</pattern>
+        <template>
+            <srai>NURSING BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* NURSING BUILDING</pattern>
+        <template>
+            <srai>NURSING BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+
+        <pattern>NURSING </pattern>
+        <template>Walk through the collins ave entrance/n The Nursing building is the first building on your left.</template>
+
+    </category>
+
+    <category>
+        <pattern>* NURSING *</pattern>
+        <template>
+            <srai>NURSING BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>NURSING *</pattern>
+        <template>
+            <srai>NURSING BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* NURSING</pattern>
+        <template>
+            <srai>NURSING BUILDING</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+
+        <pattern>HAMILTON BUILDING</pattern>
+        <template>Walk into the college from Ballymun entrance/n Take the third left/n The Hamilton building is the second building on your left.</template>
+
+    </category>
+
+    <category>
+        <pattern>HAMILTON</pattern>
+        <template>
+            <srai>HAMILTON BUILDING</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>HAMILTON *</pattern>
+        <template>
+            <srai>HAMILTON BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HAMILTON *</pattern>
+        <template>
+            <srai>HAMILTON BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HAMILTON</pattern>
+        <template>
+            <srai>HAMILTON BUILDING</srai>
+        </template>
+    </category>
+
+
+    <category>
+
+        <pattern>U BUILDING</pattern>
+        <template>Walk into college from the Ballymun entrance/n Take the third left on this road and take a right/n The U is on your right.</template>
+
+    </category>
+
+    <category>
+        <pattern>* U BUILDING</pattern>
+        <template>
+            <srai>U BUILDING</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* U BUILDING *</pattern>
+        <template>
+            <srai>U BUILDING</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>U BUILDING *</pattern>
+        <template>
+            <srai>U BUILDING</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>THE U</pattern>
+        <template>
+            <srai>U BUILDING</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>STUDENT UNION</pattern>
+        <template>
+            <srai>U BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* STUDENT UNION *</pattern>
+        <template>
+            <srai>STUDENT UNION</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>STUDENT UNION *</pattern>
+        <template>
+            <srai>STUDENT UNION</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* STUDENT UNION</pattern>
+        <template>
+            <srai>STUDENT UNION</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>STUDENTS UNION</pattern>
+        <template>
+            <srai>U BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>THE STUDENTS UNION</pattern>
+        <template>
+            <srai>U BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>STUDENTS CENTRE</pattern>
+        <template>
+            <srai>U BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* STUDENTS CENTRE *</pattern>
+        <template>
+            <srai>STUDENT UNION</srai>
+        </template>
+    </category>
+
+      <category>
+        <pattern>STUDENTS CENTRE *</pattern>
+        <template>
+            <srai>STUDENT UNION</srai>
+        </template>
+    </category>
+
+      <category>
+        <pattern>* STUDENTS CENTRE</pattern>
+        <template>
+            <srai>STUDENT UNION</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>THE HUB</pattern>
+        <template>Walk into college from the Ballymun entrance/n Take the third left on this road and take a right/n The hub is on your right.</template>
+    </category>
+
+      <category>
+        <pattern>* THE HUB *</pattern>
+        <template>
+            <srai>THE HUB</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>THE HUB *</pattern>
+        <template>
+            <srai>THE HUB</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* THE HUB</pattern>
+        <template>
+            <srai>THE HUB</srai>
+        </template>
+    </category>
+
+    <!-- the computing building can also be called the mcnuly building -->
+
+    <category>
+
+        <pattern>COMPUTING BUILDING</pattern>
+        <template>Walk into the college from the ballymun road entrance/n Take the third left and you will come to the main area/n The computing building is in front of you past the seats just on your right.</template>
+
+    </category>
+
+    <category>
+        <pattern>COMPUTING BUILDING *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* COMPUTING BUILDING *</pattern>
+        <template>
+            <srai>COMPUTING BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* COMPUTING BUILDING</pattern>
+        <template>
+            <srai>COMPUTING BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MCNULTY BUILDING</pattern>
+        <template>
+            <srai>COMPUTING BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MCNULTY BUILDING *</pattern>
+        <template>
+            <srai>MCNULTY BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* MCNULTY BUILDING</pattern>
+        <template>
+            <srai>MCNULTY BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* MCNULTY BUILDING *</pattern>
+        <template>
+            <srai>MCNULTY BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMPUTING</pattern>
+        <template>
+            <srai>COMPUTING BUILDING</srai>
+        </template>
+    </category>
+
+
+
+
+    <category>
+
+        <pattern>INTERFAITH CENTRE</pattern>
+        <template>Walk into the the college from the Ballymun entrance and take the third left/n The Interfaith centre is on your right.</template>
+
+    </category>
+
+    <category>
+        <pattern>* INTERFAITH CENTRE</pattern>
+        <template>
+            <srai>INTERFAITH CENTRE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* INTERFAITH CENTRE *</pattern>
+        <template>
+            <srai>INTERFAITH CENTRE</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>INTERFAITH CENTRE *</pattern>
+        <template>
+            <srai>INTERFAITH CENTRE</srai>
+        </template>
+    </category>
+
+
+
+
+    <category>
+
+        <pattern>MARCONI BUILDING</pattern>
+        <template>Walk in from the Ballymun road entrance/n Take the third left/n Pass the seats and then take a right/n The Marconi is the second building on your left.</template>
+
+    </category>
+
+     <category>
+        <pattern>* MARCONI BUILDING</pattern>
+        <template>
+            <srai>MARCONI BUILDING</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>MARCONI BUILDING *</pattern>
+        <template>
+            <srai>MARCONI BUILDING</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* MARCONI BUILDING *</pattern>
+        <template>
+            <srai>MARCONI BUILDING</srai>
+        </template>
+    </category>
+
+
+
+
+    <category>
+
+        <pattern>PAVILLION</pattern>
+        <template>Walk into the college from the Ballymun entrance/n Take the first left/n The pavillion is the building on your right.</template>
+
+    </category>
+
+    <category>
+        <pattern>* PAVILLION *</pattern>
+        <template>
+            <srai>PAVILLION</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>PAVILLION *</pattern>
+        <template>
+            <srai>PAVILLION</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* PAVILLION</pattern>
+        <template>
+            <srai>PAVILLION</srai>
+        </template>
+    </category>
+
+
+    <category>
+
+        <pattern>CANTEEN</pattern>
+        <template>Walk in from the Ballymun entrance/n Take the first left/n You will arrive at the back entrance to the canteen.</template>
+
+    </category>
+
+     <category>
+        <pattern>CANTEEN *</pattern>
+        <template>
+            <srai>PAVILLION</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* CANTEEN *</pattern>
+        <template>
+            <srai>CANTEEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CANTEEN</pattern>
+        <template>
+            <srai>CANTEEN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BUSINESS BUILDING</pattern>
+        <template>Walk in through the collins ave entrance/n Take a right at the building in front of you/n The Business building is the second building on your left.</template>
+
+    </category>
+
+    <category>
+        <pattern>* BUSINESS BUILDING</pattern>
+        <template>
+            <srai>BUSINESS BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BUSINESS BUILDING *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BUSINESS BUILDING *</pattern>
+        <template>
+            <srai>BUSINESS BUILDING</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>BUSINESS</pattern>
+        <template>
+            <srai>BUSINESS BUILDING</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+
+        <pattern>CRECHE</pattern>
+        <template>Come in from the ballymun entrance/n Take the first left and walk straight/n The building is on your left. </template>
+
+    </category>
+
+    <category>
+        <pattern>* CRECHE *</pattern>
+        <template>
+            <srai>CRECHE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CRECHE *</pattern>
+        <template>
+            <srai>CRECHE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CRECHE</pattern>
+        <template>
+            <srai>CRECHE</srai>
+        </template>
+    </category>
+
+    <!-- the stokes building can also be called the engineering building -->
+
+    <category>
+
+        <pattern>ENGINEERING BUILDING</pattern>
+        <template>Walk into the college grounds from this entrance/n The Stokes building is the building in front of you.</template>
+
+    </category>
+
+    <category>
+        <pattern>* ENGINEERING BUILDING *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING</srai>
+        </template>
+    </category>
+
+   <category>
+        <pattern>* ENGINEERING BUILDING</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ENGINEERING BUILDING *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>STOKES</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* STOKES *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>STOKES *</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* STOKES</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ENGINEERING</pattern>
+        <template>
+            <srai>ENGINEERING BUILDING</srai>
+        </template>
+    </category>
+
+
+
+    <category>
+
+        <pattern>TERRENCE LARKIN THEATRE</pattern>
+        <template>Walk into DCU from the Ballymun entrance/n Take the third left/n You will see a round building on your left.</template>
+
+    </category>
+
+    <category>
+        <pattern>* TERRENCE LARKIN THEATRE *</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TERRENCE LARKIN THEATRE</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TERRENCE LARKIN THEATRE *</pattern>
+        <template>
+            <srai>TERRENCE LARKIN THEATRE</srai>
+        </template>
+    </category>
+
+    <!-- the gym can also be referred to as the sports complex -->
+
+
+    <category>
+
+        <pattern>SPORTS COMPLEX</pattern>
+        <template>Come into college from the Ballymun entrance/n The sports complex is the building at the end of this path.</template>
+
+    </category>
+
+    <category>
+        <pattern>* SPORTS COMPLEX *</pattern>
+        <template>
+            <srai>SPORTS COMPLEX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SPORTS COMPLEX *</pattern>
+        <template>
+            <srai>SPORTS COMPLEX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SPORTS COMPLEX</pattern>
+        <template>
+            <srai>SPORTS COMPLEX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GYM</pattern>
+        <template>
+            <srai>SPORTS COMPLEX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* GYM *</pattern>
+        <template>
+            <srai>SPORTS COMPLEX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GYM *</pattern>
+        <template>
+            <srai>SPORTS COMPLEX</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* GYM</pattern>
+        <template>
+            <srai>SPORTS COMPLEX</srai>
+        </template>
+    </category>
+
+
+
+
+    <category>
+
+        <pattern>POSTGRADUATE RESIDENCES</pattern>
+        <template>Walk into college from the Ballymun entrance/n The first buildings on your left are the Postgraduate Residneces.</template>
+
+    </category>
+
+     <category>
+        <pattern>* POSTGRADUATE RESIDENCES *</pattern>
+        <template>
+            <srai>POSTGRADUATE RESIDENCES</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POSTGRADUATE RESIDENCES *</pattern>
+        <template>
+            <srai>POSTGRADUATE RESIDENCES</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* POSTGRADUATE RESIDENCES</pattern>
+        <template>
+            <srai>POSTGRADUATE RESIDENCES</srai>
+        </template>
+    </category>
+
+
+
+
+
+
+
+    <category>
+
+        <pattern>LARKFIELD RESIDENCES</pattern>
+        <template>Walk in from the Ballymun entrance/n Walk through the sports complex/n Walk through the two blocks and take a left.</template>
+
+    </category>
+
+    <category>
+        <pattern>LARKFIELD</pattern>
+        <template>
+            <srai>LARKFIELD RESIDENCES</srai>
+        </template>
+    </category>
+
+
+    <category>
+
+        <pattern>HAMPSTEAD RESIDENCES</pattern>
+        <template>Walk in from the Ballymun entrance/n Walk through the two blocks and take a right.</template>
+
+
+    </category>
+
+    <category>
+        <pattern>HAMPSTEAD</pattern>
+        <template>
+            <srai>HAMPSTEAD RESIDENCES</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>SCIENCE BUILDING</pattern>
+        <template>Walk through the Collin's ave entrance/n The first building on your left is the science building.</template>
+
+    </category>
+
+    <category>
+        <pattern>* SCIENCE BUILDING *</pattern>
+        <template>Walk through the Collin's ave entrance/n The first building on your left is the science building.</template>
+
+    </category>
+
+    <category>
+        <pattern>SCIENCE BUILDING *</pattern>
+        <template>Walk through the Collin's ave entrance/n The first building on your left is the science building.</template>
+
+    </category>
+
+    <category>
+        <pattern>* SCIENCE BUILDING</pattern>
+        <template>Walk through the Collin's ave entrance/n The first building on your left is the science building.</template>
+
+    </category>
+
+    <category>
+        <pattern>HELIX</pattern>
+        <template>Walk down the path from the Ballymun entrance and take the third left/n The Building past the BOI building is the helix</template>
+    </category>
+
+    <category>
+        <pattern>* HELIX *</pattern>
+        <template>
+            <srai>HELIX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELIX *</pattern>
+        <template>
+            <srai>HELIX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HELIX</pattern>
+        <template>
+            <srai>HELIX</srai>
+        </template>
+    </category>
+
+
+
+</aiml>

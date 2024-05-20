@@ -1,0 +1,43 @@
+<aiml version="2.0" encoding="UTF-8">
+    <!-- std-startup.xml -->
+
+    <!-- Category is an atomic AIML unit -->
+    <category>
+
+        <!-- Pattern to match in user input -->
+        <!-- If user enters "LOAD AIML B" -->
+        <pattern>LOAD AIML B</pattern>
+
+        <!-- Template is the response to the pattern -->
+        <!-- This learn an aiml file -->
+        <template>
+
+            <learn>additional_info.aiml</learn>
+            <learn>basic_chat.aiml</learn>
+            <learn>building_codes.aiml</learn>
+            <learn>building_directions.aiml</learn>
+            <learn>business_room_directions.aiml</learn>
+            <learn>FAQ.aiml</learn>
+            <learn>computing_nursing_directions.aiml</learn>
+            <learn>functions.aiml</learn>
+            <learn>greetings.aiml</learn>
+            <learn>buses.aiml</learn>
+            <learn>help.aiml</learn>
+            <learn>images.aiml</learn>
+            <learn>shops.aiml</learn>
+
+
+
+
+           <!--  extra files for tesing not related to project
+            <learn>other_aiml.aiml</learn>
+            <learn>test.aiml</learn> -->
+
+
+
+
+        </template>
+
+    </category>
+
+</aiml>

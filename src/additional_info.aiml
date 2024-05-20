@@ -1,0 +1,12 @@
+<aiml version="2.0" encoding="UTF-8">
+<!-- additional_info.aiml -->
+
+    <category>
+
+        <pattern>MORE INFORMATION</pattern>
+        <template>https://www.dcu.ie/registry/postgraduate/faq.shtml</template>
+
+    </category>
+
+
+</aiml>
